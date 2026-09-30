@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="202.81213mm"
+   height="129.9603mm"
+   viewBox="0 0 202.81213 129.9603"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="showing-link-traversal-step-0.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="1.0544998"
+     inkscape:cx="307.72884"
+     inkscape:cy="53.579906"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g1873"
+     inkscape:pageshadow="0"
+     width="202.81213mm">
+    <inkscape:grid
+       type="xygrid"
+       id="grid182" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="TriangleStart"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g1873"
+       transform="translate(114.76605,97.352637)">
+      <path
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#d3d3d3;fill-opacity:1;stroke:#d3d3d3;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+         id="path400-999"
+         sodipodi:type="arc"
+         sodipodi:cx="-62.754669"
+         sodipodi:cy="-36.675217"
+         sodipodi:rx="5.2916665"
+         sodipodi:ry="5.2916665"
+         sodipodi:start="0"
+         sodipodi:end="6.2752259"
+         sodipodi:open="true"
+         sodipodi:arc-type="arc"
+         d="m -57.463003,-36.675217 a 5.2916665,5.2916665 0 0 1 -5.281137,5.291656 5.2916665,5.2916665 0 0 1 -5.302154,-5.270596 5.2916665,5.2916665 0 0 1 5.260036,-5.312632 5.2916665,5.2916665 0 0 1 5.323088,5.249454" />
+      <path
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#667e2c;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+         id="path400-02"
+         sodipodi:type="arc"
+         sodipodi:cx="-103.46844"
+         sodipodi:cy="-71.094574"
+         sodipodi:rx="5.2916665"
+         sodipodi:ry="5.2916665"
+         sodipodi:start="0"
+         sodipodi:end="6.2752259"
+         sodipodi:open="true"
+         sodipodi:arc-type="arc"
+         d="m -98.176771,-71.094574 a 5.2916665,5.2916665 0 0 1 -5.281139,5.291656 5.2916665,5.2916665 0 0 1 -5.30215,-5.270597 5.2916665,5.2916665 0 0 1 5.26003,-5.312631 5.2916665,5.2916665 0 0 1 5.323092,5.249454" />
+      <path
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#d3d3d3;stroke-width:0.894126;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-start:url(#TriangleStart);stop-color:#000000;stop-opacity:1"
+         d="M -70.499855,-43.266488 -99.676738,-67.932569"
+         id="path2121"
+         inkscape:connector-type="polyline"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g1873-7"
+       transform="matrix(0.38383,-0.92340377,-0.92340377,-0.38383,141.60922,140.6625)" />
+  </g>
+</svg>

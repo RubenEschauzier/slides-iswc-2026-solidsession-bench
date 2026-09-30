@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="345" viewBox="0 0 520 345" font-family="Fira Sans">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#000000"/>
+    </marker>
+    <marker id="arrow-grey" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#888888"/>
+    </marker>
+  </defs>
+
+  <!-- Generation steps, colored by the usage pattern they model -->
+  <g stroke="#000000" stroke-width="1.2">
+    <rect x="60" y="20" width="280" height="58" rx="10" fill="#667e2c" fill-opacity="0.35"/>
+    <rect x="60" y="110" width="280" height="58" rx="10" fill="#008b8f" fill-opacity="0.25"/>
+    <rect x="60" y="200" width="280" height="58" rx="10" fill="#fada5e" fill-opacity="0.6"/>
+  </g>
+  <g text-anchor="middle">
+    <text x="200" y="45" font-size="18">Start new session</text>
+    <text x="200" y="67" font-size="14" fill="#555555">interest-based instantiation</text>
+    <text x="200" y="135" font-size="18">Next query in session</text>
+    <text x="200" y="157" font-size="14" fill="#555555">instantiated from previous results</text>
+    <text x="200" y="225" font-size="18">Apply refinements</text>
+    <text x="200" y="247" font-size="14" fill="#555555">composable transformations</text>
+  </g>
+
+  <g stroke="#000000" stroke-width="1.5" marker-end="url(#arrow)">
+    <line x1="200" y1="80" x2="200" y2="107"/>
+    <line x1="200" y1="170" x2="200" y2="197"/>
+    <line x1="200" y1="260" x2="200" y2="287"/>
+  </g>
+
+  <!-- Loops back: continue the session or switch sessions -->
+  <polyline points="60,222 38,222 38,146 57,146" fill="none" stroke="#000000" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <polyline points="60,238 16,238 16,50 57,50" fill="none" stroke="#888888" stroke-width="1.8" stroke-dasharray="7 5" marker-end="url(#arrow-grey)"/>
+  <g font-size="15" text-anchor="middle">
+    <text transform="translate(53,184) rotate(-90)">continue</text>
+    <text transform="translate(33,143) rotate(-90)" fill="#666666">switch session</text>
+  </g>
+
+  <!-- Resulting query sequence -->
+  <g stroke="#000000" stroke-width="1.2" fill="#008b8f" fill-opacity="0.25">
+    <rect x="60" y="291" width="56" height="44" rx="8"/>
+    <rect x="124" y="291" width="56" height="44" rx="8"/>
+    <rect x="188" y="291" width="56" height="44" rx="8"/>
+    <rect x="252" y="291" width="56" height="44" rx="8"/>
+  </g>
+  <g font-size="18" text-anchor="middle">
+    <text x="88" y="319">Q1</text>
+    <text x="152" y="319">Q2</text>
+    <text x="216" y="319">Q3</text>
+    <text x="280" y="319">Q4</text>
+    <text x="330" y="319">…</text>
+  </g>
+
+  <!-- Legend: usage pattern per step -->
+  <g font-size="17">
+    <circle cx="368" cy="49" r="8" fill="#667e2c"/>
+    <text x="384" y="55">User interests</text>
+    <circle cx="368" cy="139" r="8" fill="#008b8b"/>
+    <text x="384" y="145">Logical sessions</text>
+    <circle cx="368" cy="229" r="8" fill="#fada5e"/>
+    <text x="384" y="235">Query refinement</text>
+    <text x="360" y="319" fill="#666666">query sequence</text>
+  </g>
+</svg>

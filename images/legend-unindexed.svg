@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Shared legend for the cropped unindexed-cache performance profiles.
+     Colors, dash patterns and markers match the Matplotlib figures of the paper. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="36" viewBox="0 0 860 36" font-family="Fira Sans">
+  <g stroke-width="2.4" fill="none">
+    <line x1="4" y1="18" x2="58" y2="18" stroke="#888888"/>
+    <line x1="214" y1="18" x2="268" y2="18" stroke="#e24b4a" stroke-dasharray="8.9 3.8"/>
+    <line x1="434" y1="18" x2="488" y2="18" stroke="#97c459" stroke-dasharray="2.4 4"/>
+    <line x1="654" y1="18" x2="708" y2="18" stroke="#185fa5" stroke-dasharray="15.4 3.8 2.4 3.8"/>
+  </g>
+  <g fill="#ffffff" stroke-width="2">
+    <circle cx="31" cy="18" r="6.5" stroke="#888888"/>
+    <rect x="235" y="12" width="12" height="12" stroke="#e24b4a"/>
+    <path d="M461,10.5 L468,23.5 L454,23.5 z" stroke="#97c459"/>
+    <path d="M681,10 L689,18 L681,26 L673,18 z" stroke="#185fa5"/>
+  </g>
+  <g font-size="20" fill="#222222">
+    <text x="68" y="25">No cache</text>
+    <text x="278" y="25">Unindexed S</text>
+    <text x="498" y="25">Unindexed M</text>
+    <text x="718" y="25">Unindexed L</text>
+  </g>
+</svg>

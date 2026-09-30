@@ -1,0 +1,21 @@
+\begin{frame}{Simulation Methodology: Hyperparameters}
+    \centering
+    \begin{tabular}{llr}
+        \toprule
+        \textbf{Category} & \textbf{Parameter} & \textbf{Value} \\
+        \midrule
+        Log-normal $(\mu, \sigma)$ & Sequence length          & 3.0, 0.2 \\
+                                   & Session length           & 1.7, 0.5 \\
+                                   & Transition probability   & $-2.0$, 0.25 \\
+        \midrule
+        Refinements   & \texttt{patternProbability}       & 0.1 \\
+                      & \texttt{min/maxRefinementLength}  & 2, [3--5] \\
+        \midrule
+        Instantiation & \texttt{temperature}              & 0.1 \\
+                      & \texttt{maxLogits}                & 5--10 \\
+        \bottomrule
+    \end{tabular}
+
+    \vspace{1em}
+    A single seeded PRNG guarantees reproducible sequences
+\end{frame}

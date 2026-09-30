@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="370" viewBox="0 0 800 370" font-family="Fira Sans">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#000000"/>
+    </marker>
+  </defs>
+
+  <!-- Refinement step titles -->
+  <g font-size="20">
+    <text x="20" y="28">Base template</text>
+    <text x="430" y="28">Result refinement: <tspan fill="#008b8b">+ FILTER</tspan></text>
+    <text x="430" y="228">Result extension: <tspan fill="#008b8b">+ OPTIONAL</tspan></text>
+    <text x="20" y="228">Shifting query intent: <tspan fill="#008b8b">new seed</tspan></text>
+  </g>
+
+  <!-- Query boxes -->
+  <g stroke="#000000" stroke-width="1.2" fill="#008b8f" fill-opacity="0.25">
+    <rect x="20" y="38" width="350" height="116" rx="10"/>
+    <rect x="430" y="38" width="350" height="116" rx="10"/>
+    <rect x="430" y="238" width="350" height="116" rx="10"/>
+    <rect x="20" y="238" width="350" height="116" rx="10"/>
+  </g>
+
+  <!-- Changed parts per step -->
+  <g fill="#fada5e" fill-opacity="0.8">
+    <rect x="440" y="100" width="330" height="24" rx="4"/>
+    <rect x="440" y="324" width="330" height="24" rx="4"/>
+    <rect x="204" y="252" width="57" height="24" rx="4"/>
+  </g>
+
+  <!-- Query bodies -->
+  <g font-family="Fira Mono" font-size="17" xml:space="preserve">
+    <text x="34" y="70">?msg :hasCreator &lt;alice&gt; .</text>
+    <text x="34" y="94">?msg :content ?text .</text>
+
+    <text x="444" y="70">?msg :hasCreator &lt;alice&gt; .</text>
+    <text x="444" y="94">?msg :content ?text .</text>
+    <text x="444" y="118">FILTER(CONTAINS(?text, "jazz"))</text>
+
+    <text x="444" y="270">?msg :hasCreator &lt;alice&gt; .</text>
+    <text x="444" y="294">?msg :content ?text .</text>
+    <text x="444" y="318">FILTER(CONTAINS(?text, "jazz"))</text>
+    <text x="444" y="342">OPTIONAL { ?msg :hasTag ?tag }</text>
+
+    <text x="34" y="270">?msg :hasCreator &lt;bob&gt; .</text>
+    <text x="34" y="294">?msg :content ?text .</text>
+    <text x="34" y="318">FILTER(CONTAINS(?text, "jazz"))</text>
+    <text x="34" y="342">OPTIONAL { ?msg :hasTag ?tag }</text>
+  </g>
+
+  <!-- Sequence order -->
+  <g stroke="#000000" stroke-width="1.5" marker-end="url(#arrow)">
+    <line x1="374" y1="96" x2="426" y2="96"/>
+    <line x1="605" y1="158" x2="605" y2="206"/>
+    <line x1="426" y1="296" x2="374" y2="296"/>
+  </g>
+</svg>

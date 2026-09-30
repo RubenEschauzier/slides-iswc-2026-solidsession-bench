@@ -1,0 +1,70 @@
+\documentclass[aspectratio=169]{beamer}
+% \documentclass{beamer}
+
+\usetheme{metropolis}
+\usepackage[T1]{fontenc}
+\usepackage{microtype}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{graphicx}
+\usepackage{tabularray}
+\usepackage{amssymb}
+\usepackage{csquotes}
+\usepackage{adjustbox}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage[justification=centering]{caption}
+
+% --- Bibliography setup ---
+\usepackage[
+  backend=biber,
+  style=authoryear,
+  maxcitenames=2,
+  uniquename=false,
+  giveninits=true
+]{biblatex}
+
+\lstset{language=SQL,morekeywords={PREFIX,java,rdf,rdfs,url}}
+
+\addbibresource{references/references.bib}
+\title{SolidSessionBench: Realistic Query Sequences for User-Oriented Decentralized Environments}
+\date{\today}
+\author{Ruben Eschauzier, Ruben Taelman}
+\institute{Department of Electronics and Information Systems, Ghent University – Imec}
+
+\begin{document}
+
+\maketitle
+
+% NOTES:
+%   - Table of Contents and come back to it
+% So like a agenda that shows up every once in a while
+% Something like: The goal of the paper and why, new tools for our analysis, the experiment run, results
+
+\input{introduction/introduction_problem}
+\input{introduction/introduction_ltqp}
+\input{introduction/introduction_optimization}
+\input{problem-statement/problem-statement.tex}
+\input{literature/literature.tex}
+\input{simulation-methodology/solidbench.tex}
+\input{simulation-methodology/simulation-methodology.tex}
+\input{caching/caching.tex}
+\input{results/results.tex}
+
+% --- Bibliography slide ---
+\begin{frame}[allowframebreaks]{References}
+  \printbibliography[heading=none]
+\end{frame}
+
+\input{supplemental/hyperparameter.tex}
+
+% NOTES:
+% Supplemental slides:
+% 
+% Examples of discover, short short, short long, complex queries
+% Other metrics, such as diefficiency, weighted R^{3} continuos R^{3}?
+
+\end{document}

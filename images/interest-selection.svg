@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="360" viewBox="0 0 500 360" font-family="Fira Sans">
+  <!-- Base user feature vector: interests (teal) and studies (olive) -->
+  <text x="20" y="30" font-size="20">Base user k</text>
+  <g stroke="#888888" stroke-width="1">
+    <rect x="20" y="45" width="26" height="26" fill="#008b8b"/>
+    <rect x="50" y="45" width="26" height="26" fill="#ffffff"/>
+    <rect x="80" y="45" width="26" height="26" fill="#008b8b"/>
+    <rect x="110" y="45" width="26" height="26" fill="#008b8b"/>
+    <rect x="140" y="45" width="26" height="26" fill="#ffffff"/>
+    <rect x="170" y="45" width="26" height="26" fill="#ffffff"/>
+    <rect x="200" y="45" width="26" height="26" fill="#008b8b"/>
+    <rect x="240" y="45" width="26" height="26" fill="#ffffff"/>
+    <rect x="270" y="45" width="26" height="26" fill="#667e2c"/>
+    <rect x="300" y="45" width="26" height="26" fill="#ffffff"/>
+  </g>
+  <g font-size="15" fill="#666666" text-anchor="middle">
+    <text x="123" y="92">interests</text>
+    <text x="283" y="92">studies</text>
+  </g>
+
+  <!-- Top-M candidates: similarity and resulting softmax probability -->
+  <text x="20" y="135" font-size="20">Top-M similar users</text>
+  <g font-size="15" fill="#666666" text-anchor="middle">
+    <text x="145" y="163">cosine similarity</text>
+    <text x="365" y="163">P(i | k), T = 0.1</text>
+  </g>
+
+  <g font-size="17">
+    <text x="20" y="195">u1</text>
+    <text x="20" y="231">u2</text>
+    <text x="20" y="267">u3</text>
+    <text x="20" y="303">u4</text>
+    <text x="20" y="339">u5</text>
+  </g>
+
+  <g fill="#d3d3d3">
+    <rect x="70" y="175" width="114.8" height="28" rx="3"/>
+    <rect x="70" y="211" width="105" height="28" rx="3"/>
+    <rect x="70" y="247" width="84" height="28" rx="3"/>
+    <rect x="70" y="283" width="57.4" height="28" rx="3"/>
+    <rect x="70" y="319" width="42" height="28" rx="3"/>
+  </g>
+  <g font-size="15" fill="#555555">
+    <text x="192" y="195">0.82</text>
+    <text x="182" y="231">0.75</text>
+    <text x="161" y="267">0.60</text>
+    <text x="134" y="303">0.41</text>
+    <text x="119" y="339">0.30</text>
+  </g>
+
+  <g fill="#008b8b">
+    <rect x="290" y="175" width="91.5" height="28" rx="3"/>
+    <rect x="290" y="211" width="45" height="28" rx="3"/>
+    <rect x="290" y="247" width="10.5" height="28" rx="3"/>
+    <rect x="290" y="283" width="2" height="28"/>
+    <rect x="290" y="319" width="1" height="28"/>
+  </g>
+  <g font-size="15" fill="#555555">
+    <text x="389" y="195">0.61</text>
+    <text x="343" y="231">0.30</text>
+    <text x="308" y="267">0.07</text>
+    <text x="300" y="303">0.01</text>
+    <text x="299" y="339">&lt;0.01</text>
+  </g>
+</svg>

@@ -1,0 +1,507 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{arenas2025exploring}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=9282d63c7c5bda72aad9b39bc68fddeb}{%
+           family={Arenas},
+           familyi={A\bibinitperiod},
+           given={Marcelo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ab4f5914f2aa9d55dd45967b5301192a}{%
+           family={Franconi},
+           familyi={F\bibinitperiod},
+           given={Enrico},
+           giveni={E\bibinitperiod}}}%
+        {{hash=160c85bb30718976180d5b88edab4f7d}{%
+           family={Hammerer},
+           familyi={H\bibinitperiod},
+           given={Janik},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2076c60fe17dc3769696535197077f9a}{%
+           family={Hartig},
+           familyi={H\bibinitperiod},
+           given={Olaf},
+           giveni={O\bibinitperiod}}}%
+        {{hash=1b753e139c8ab7af870d74e326b796ad}{%
+           family={Hose},
+           familyi={H\bibinitperiod},
+           given={Katja},
+           giveni={K\bibinitperiod}}}%
+        {{hash=ac7d2bf41ef95b58f6bb175f57de248c}{%
+           family={Koesten},
+           familyi={K\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod}}}%
+        {{hash=bf902f82ffd2e3e04925d309f210e0f4}{%
+           family={Konstantinidis},
+           familyi={K\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod}}}%
+        {{hash=931db7d26f75777de801bc1858e3ebae}{%
+           family={Libkin},
+           familyi={L\bibinitperiod},
+           given={Leonid},
+           giveni={L\bibinitperiod}}}%
+        {{hash=ed4ff9f72894a62154d2a77120e5d97a}{%
+           family={Martens},
+           familyi={M\bibinitperiod},
+           given={Wim},
+           giveni={W\bibinitperiod}}}%
+        {{hash=8f3e1a938254111f039b4d72874f49e2}{%
+           family={Sasaki},
+           familyi={S\bibinitperiod},
+           given={Yuya},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{a4cd35a330e4b085a5eced1860096b4c}
+      \strng{fullhash}{3fe4f8709dc769b7744fd2c3c7fefbb9}
+      \strng{bibnamehash}{a4cd35a330e4b085a5eced1860096b4c}
+      \strng{authorbibnamehash}{a4cd35a330e4b085a5eced1860096b4c}
+      \strng{authornamehash}{a4cd35a330e4b085a5eced1860096b4c}
+      \strng{authorfullhash}{3fe4f8709dc769b7744fd2c3c7fefbb9}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the VLDB Endowment}
+      \field{number}{13}
+      \field{title}{Exploring Exploratory Querying}
+      \field{volume}{18}
+      \field{year}{2025}
+      \field{pages}{5731\bibrangedash 5739}
+      \range{pages}{9}
+    \endentry
+    \entry{bizer2011berlin}{incollection}{}
+      \name{author}{2}{}{%
+        {{hash=c0ab52e226557a243a4a5277aec8acdc}{%
+           family={Bizer},
+           familyi={B\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=fce5bdf25a58a33724472d1bac0ee785}{%
+           family={Schultz},
+           familyi={S\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IGI Global Scientific Publishing}%
+      }
+      \strng{namehash}{7dcf5b954167431ddccc3a582d5f9333}
+      \strng{fullhash}{7dcf5b954167431ddccc3a582d5f9333}
+      \strng{bibnamehash}{7dcf5b954167431ddccc3a582d5f9333}
+      \strng{authorbibnamehash}{7dcf5b954167431ddccc3a582d5f9333}
+      \strng{authornamehash}{7dcf5b954167431ddccc3a582d5f9333}
+      \strng{authorfullhash}{7dcf5b954167431ddccc3a582d5f9333}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Semantic Services, Interoperability and Web Applications: Emerging Concepts}
+      \field{title}{The berlin sparql benchmark}
+      \field{year}{2011}
+      \field{pages}{81\bibrangedash 103}
+      \range{pages}{23}
+    \endentry
+    \entry{bonifati2020analytical}{article}{}
+      \name{author}{3}{}{%
+        {{hash=80f307a704c6522c965f552d5d041a24}{%
+           family={Bonifati},
+           familyi={B\bibinitperiod},
+           given={Angela},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ed4ff9f72894a62154d2a77120e5d97a}{%
+           family={Martens},
+           familyi={M\bibinitperiod},
+           given={Wim},
+           giveni={W\bibinitperiod}}}%
+        {{hash=3a914d8bfa4387a75d0ca6f097ccac2e}{%
+           family={Timm},
+           familyi={T\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{a4b0d7b02a638f9811124942152590f1}
+      \strng{fullhash}{bfc0abdba171ea1edc16544f65a2368f}
+      \strng{bibnamehash}{bfc0abdba171ea1edc16544f65a2368f}
+      \strng{authorbibnamehash}{bfc0abdba171ea1edc16544f65a2368f}
+      \strng{authornamehash}{a4b0d7b02a638f9811124942152590f1}
+      \strng{authorfullhash}{bfc0abdba171ea1edc16544f65a2368f}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The VLDB Journal}
+      \field{number}{2}
+      \field{title}{An analytical study of large SPARQL query logs}
+      \field{volume}{29}
+      \field{year}{2020}
+      \field{pages}{655\bibrangedash 679}
+      \range{pages}{25}
+    \endentry
+    \entry{hartig2011caching}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=2076c60fe17dc3769696535197077f9a}{%
+           family={Hartig},
+           familyi={H\bibinitperiod},
+           given={Olaf},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{2076c60fe17dc3769696535197077f9a}
+      \strng{fullhash}{2076c60fe17dc3769696535197077f9a}
+      \strng{bibnamehash}{2076c60fe17dc3769696535197077f9a}
+      \strng{authorbibnamehash}{2076c60fe17dc3769696535197077f9a}
+      \strng{authornamehash}{2076c60fe17dc3769696535197077f9a}
+      \strng{authorfullhash}{2076c60fe17dc3769696535197077f9a}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{LDOW}
+      \field{title}{How Caching Improves Efficiency and Result Completeness for Querying Linked Data}
+      \field{year}{2011}
+    \endentry
+    \entry{martin2010improving}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=464aecd13bd177b8fc0240da4398b50b}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e83d31755d04c43377cdee10b5a4a345}{%
+           family={Unbehauen},
+           familyi={U\bibinitperiod},
+           given={Jörg},
+           giveni={J\bibinitperiod}}}%
+        {{hash=74de32830575f67e1479f58f47d2111d}{%
+           family={Auer},
+           familyi={A\bibinitperiod},
+           given={Sören},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{367086efbd5f75e9cdcc14eed73483e3}
+      \strng{fullhash}{a17c81daa3b3bf774bbbe4d776f01741}
+      \strng{bibnamehash}{a17c81daa3b3bf774bbbe4d776f01741}
+      \strng{authorbibnamehash}{a17c81daa3b3bf774bbbe4d776f01741}
+      \strng{authornamehash}{367086efbd5f75e9cdcc14eed73483e3}
+      \strng{authorfullhash}{a17c81daa3b3bf774bbbe4d776f01741}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Extended Semantic Web Conference}
+      \field{title}{Improving the performance of semantic web applications with SPARQL query caching}
+      \field{year}{2010}
+      \field{pages}{304\bibrangedash 318}
+      \range{pages}{15}
+    \endentry
+    \entry{meiss_whats_2009}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=92f6ac55077ae6ed685ea91bf24d5ca4}{%
+           family={Meiss},
+           familyi={M\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{hash=bc3a157dee9ed2f88c670d59d2dcff28}{%
+           family={Duncan},
+           familyi={D\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1a5d85b2830a95c97212ffd4751f9be4}{%
+           family={Gonçalves},
+           familyi={G\bibinitperiod},
+           given={Bruno},
+           giveni={B\bibinitperiod}}}%
+        {{hash=99fe9ac60d3c964a46c59baca6611ada}{%
+           family={Ramasco},
+           familyi={R\bibinitperiod},
+           given={José\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=3e3991fca812b39b0448729fca507968}{%
+           family={Menczer},
+           familyi={M\bibinitperiod},
+           given={Filippo},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Torino Italy}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{690c812462ddb719908d12fdf09fe121}
+      \strng{fullhash}{22ac2c8429e544233fbb4304de123d78}
+      \strng{bibnamehash}{690c812462ddb719908d12fdf09fe121}
+      \strng{authorbibnamehash}{690c812462ddb719908d12fdf09fe121}
+      \strng{authornamehash}{690c812462ddb719908d12fdf09fe121}
+      \strng{authorfullhash}{22ac2c8429e544233fbb4304de123d78}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 20th {ACM} conference on {Hypertext} and hypermedia}
+      \field{title}{What's in a session: tracking individual behavior on the web}
+      \field{year}{2009}
+      \field{pages}{173\bibrangedash 182}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1145/1557914.1557946
+      \endverb
+    \endentry
+    \entry{mislove2007measurement}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=d85916d80055740c531622abd1c90d7c}{%
+           family={Mislove},
+           familyi={M\bibinitperiod},
+           given={Alan},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b676c70efdb2a3ddb88e70d06a10ad0a}{%
+           family={Marcon},
+           familyi={M\bibinitperiod},
+           given={Massimiliano},
+           giveni={M\bibinitperiod}}}%
+        {{hash=dbf52af009e972037dc69055660e4a65}{%
+           family={Gummadi},
+           familyi={G\bibinitperiod},
+           given={Krishna\bibnamedelima P},
+           giveni={K\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=fb43649db15953eb2164df87bc5034a3}{%
+           family={Druschel},
+           familyi={D\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=fbfbd346c570975eb853de0b0a726041}{%
+           family={Bhattacharjee},
+           familyi={B\bibinitperiod},
+           given={Bobby},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{913b6d7c6bbbca4d03189258d811c61f}
+      \strng{fullhash}{804b50c237e95b2f6a00e23d0fe1314b}
+      \strng{bibnamehash}{913b6d7c6bbbca4d03189258d811c61f}
+      \strng{authorbibnamehash}{913b6d7c6bbbca4d03189258d811c61f}
+      \strng{authornamehash}{913b6d7c6bbbca4d03189258d811c61f}
+      \strng{authorfullhash}{804b50c237e95b2f6a00e23d0fe1314b}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 7th ACM SIGCOMM conference on Internet measurement}
+      \field{title}{Measurement and analysis of online social networks}
+      \field{year}{2007}
+      \field{pages}{29\bibrangedash 42}
+      \range{pages}{14}
+    \endentry
+    \entry{mitzlaff2013user}{article}{}
+      \name{author}{5}{}{%
+        {{hash=7beb5949d5439fe5761e3bc6aa377a8d}{%
+           family={Mitzlaff},
+           familyi={M\bibinitperiod},
+           given={Folke},
+           giveni={F\bibinitperiod}}}%
+        {{hash=6b016b78dde16d353f5c316e094fc59b}{%
+           family={Atzmueller},
+           familyi={A\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8230d4bea3e597aaa81850dcda966a2a}{%
+           family={Benz},
+           familyi={B\bibinitperiod},
+           given={Dominik},
+           giveni={D\bibinitperiod}}}%
+        {{hash=84af49c1afad6e0672bca67acc04862f}{%
+           family={Hotho},
+           familyi={H\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=98d2cffeba0d82667e344897db264eab}{%
+           family={Stumme},
+           familyi={S\bibinitperiod},
+           given={Gerd},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{44f23b0f2df17c8ed8da89956c66c266}
+      \strng{fullhash}{7f13c345b03c3b7ddb7c98c617a6842c}
+      \strng{bibnamehash}{44f23b0f2df17c8ed8da89956c66c266}
+      \strng{authorbibnamehash}{44f23b0f2df17c8ed8da89956c66c266}
+      \strng{authornamehash}{44f23b0f2df17c8ed8da89956c66c266}
+      \strng{authorfullhash}{7f13c345b03c3b7ddb7c98c617a6842c}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1309.3888}
+      \field{title}{User-relatedness and community structure in social interaction networks}
+      \field{year}{2013}
+    \endentry
+    \entry{nicholson2024hpcache}{article}{}
+      \name{author}{3}{}{%
+        {{hash=5337ba10ceaa1019e5b071d67bda5473}{%
+           family={Nicholson},
+           familyi={N\bibinitperiod},
+           given={Hamish},
+           giveni={H\bibinitperiod}}}%
+        {{hash=b4c663da1731718491b4a7bd96a16d17}{%
+           family={Chrysogelos},
+           familyi={C\bibinitperiod},
+           given={Periklis},
+           giveni={P\bibinitperiod}}}%
+        {{hash=78ce9178b340700eb9ce0a25a0edc40a}{%
+           family={Ailamaki},
+           familyi={A\bibinitperiod},
+           given={Anastasia},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{d9f17229a549854f4fa6d0b25d987efd}
+      \strng{fullhash}{d21c9bda78ae642e013f3b19c66ccceb}
+      \strng{bibnamehash}{d21c9bda78ae642e013f3b19c66ccceb}
+      \strng{authorbibnamehash}{d21c9bda78ae642e013f3b19c66ccceb}
+      \strng{authornamehash}{d9f17229a549854f4fa6d0b25d987efd}
+      \strng{authorfullhash}{d21c9bda78ae642e013f3b19c66ccceb}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The VLDB Journal}
+      \field{number}{6}
+      \field{title}{HPCache: memory-efficient OLAP through proportional caching revisited}
+      \field{volume}{33}
+      \field{year}{2024}
+      \field{pages}{1775\bibrangedash 1791}
+      \range{pages}{17}
+    \endentry
+    \entry{saleem2015lsq}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=d2274fbe986995b8ac0dabe2949b6c6f}{%
+           family={Saleem},
+           familyi={S\bibinitperiod},
+           given={Muhammad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=46da789b64ffae1930e91a239b269e33}{%
+           family={Ali},
+           familyi={A\bibinitperiod},
+           given={Muhammad\bibnamedelima Intizar},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=56f2d88e83f41f6e1f0d9a0197c4c7eb}{%
+           family={Hogan},
+           familyi={H\bibinitperiod},
+           given={Aidan},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7bfa881d383b22b241f2f73e49e45181}{%
+           family={Mehmood},
+           familyi={M\bibinitperiod},
+           given={Qaiser},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=a53ea1e67bff64c9ebe4ffbf19a852d2}{%
+           family={Ngomo},
+           familyi={N\bibinitperiod},
+           given={Axel-Cyrille\bibnamedelima Ngonga},
+           giveni={A\bibinithyphendelim C\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{302681f28f173d5a182aac87378ac13e}
+      \strng{fullhash}{674758bbd0aa4803bf9649464f20d032}
+      \strng{bibnamehash}{302681f28f173d5a182aac87378ac13e}
+      \strng{authorbibnamehash}{302681f28f173d5a182aac87378ac13e}
+      \strng{authornamehash}{302681f28f173d5a182aac87378ac13e}
+      \strng{authorfullhash}{674758bbd0aa4803bf9649464f20d032}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International semantic web conference}
+      \field{title}{LSQ: the linked SPARQL queries dataset}
+      \field{year}{2015}
+      \field{pages}{261\bibrangedash 269}
+      \range{pages}{9}
+    \endentry
+    \entry{taelman2023link}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=f9a485a3b7f133ec13b1eba6b475851f}{%
+           family={Taelman},
+           familyi={T\bibinitperiod},
+           given={Ruben},
+           giveni={R\bibinitperiod}}}%
+        {{hash=f6f7b1f03b36b6df0b508d6e0e17c85d}{%
+           family={Verborgh},
+           familyi={V\bibinitperiod},
+           given={Ruben},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{c794232c5519593635453da074d6dc81}
+      \strng{fullhash}{c794232c5519593635453da074d6dc81}
+      \strng{bibnamehash}{c794232c5519593635453da074d6dc81}
+      \strng{authorbibnamehash}{c794232c5519593635453da074d6dc81}
+      \strng{authornamehash}{c794232c5519593635453da074d6dc81}
+      \strng{authorfullhash}{c794232c5519593635453da074d6dc81}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Semantic Web Conference}
+      \field{title}{Link traversal query processing over decentralized environments with structural assumptions}
+      \field{year}{2023}
+      \field{pages}{3\bibrangedash 22}
+      \range{pages}{20}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

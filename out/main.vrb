@@ -1,0 +1,10 @@
+\frametitle{Supplemental Slides: Short Query}
+\begin{lstlisting}[captionpos=b, label=lst:sparql,
+   basicstyle=\ttfamily,frame=single]
+PREFIX snvoc: <www.ldbc.eu/ldbc_socialnet/1.0/vocabulary/>
+SELECT ?messageCreationDate ?messageContent WHERE {
+  <pods/150/comments/Mexico> snvoc:id ?messageId;
+    snvoc:creationDate ?messageCreationDate;
+    (snvoc:content|snvoc:imageFile) ?messageContent.
+}
+\end{lstlisting}
