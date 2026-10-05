@@ -2363,20 +2363,21 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1" intorder="1">hartig2011caching</bcf:citekey>
-    <bcf:citekey order="1" intorder="2">nicholson2024hpcache</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">bizer2011berlin</bcf:citekey>
-    <bcf:citekey order="2" intorder="2">martin2010improving</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">saleem2015lsq</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">mislove2007measurement</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">mitzlaff2013user</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">meiss_whats_2009</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">bonifati2020analytical</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">arenas2025exploring</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">taelman2023link</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">meiss_whats_2009</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">hartig2011caching</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">taelman2018comunica</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">dolan2002benchmarking</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">hartig2011caching</bcf:citekey>
+    <bcf:citekey order="2" intorder="2">nicholson2024hpcache</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">bizer2011berlin</bcf:citekey>
+    <bcf:citekey order="3" intorder="2">martin2010improving</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">saleem2015lsq</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">taelman2023link</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">mislove2007measurement</bcf:citekey>
+    <bcf:citekey order="6" intorder="2">mitzlaff2013user</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">meiss_whats_2009</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">bonifati2020analytical</bcf:citekey>
+    <bcf:citekey order="8" intorder="2">arenas2025exploring</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">hartig2011caching</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">taelman2018comunica</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">dolan2002benchmarking</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">meiss_whats_2009</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

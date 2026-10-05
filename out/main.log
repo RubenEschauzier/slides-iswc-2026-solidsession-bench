@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2026.4.14)  30 SEP 2026 13:40
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2026.4.14)  5 OCT 2026 19:24
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1820,7 +1820,7 @@ Overfull \vbox (22.21751pt too high) detected at line 62
 <images/how-to-find-sources.pdf, id=69, 510.58803pt x 645.75899pt>
 File: images/how-to-find-sources.pdf Graphic file (type pdf)
 <use images/how-to-find-sources.pdf>
-Package luatex.def Info: images/how-to-find-sources.pdf  used on input line 80.
+Package luatex.def Info: images/how-to-find-sources.pdf  used on input line 79.
 
 (luatex.def)             Requested size: 143.4048pt x 181.36307pt.
  [4
@@ -1857,7 +1857,7 @@ t line 66.
 File: images/showing-link-traversal-step-3.pdf Graphic file (type pdf)
 <use images/showing-link-traversal-step-3.pdf>
 Package luatex.def Info: images/showing-link-traversal-step-3.pdf  used on inpu
-t line 86.
+t line 85.
 (luatex.def)             Requested size: 239.00558pt x 157.18497pt.
  [8
 
@@ -1889,87 +1889,161 @@ Package luatex.def Info: images/client-side-engine.pdf  used on input line 42.
 
 ])
 (./literature/literature.tex
-<images/evaluation-approaches.pdf, id=134, 376.40625pt x 278.54062pt>
-File: images/evaluation-approaches.pdf Graphic file (type pdf)
-<use images/evaluation-approaches.pdf>
-Package luatex.def Info: images/evaluation-approaches.pdf  used on input line 1
-9.
-(luatex.def)             Requested size: 239.00558pt x 176.86707pt.
+<images/caching-sequence.pdf, id=134, 368.87813pt x 263.48438pt>
+File: images/caching-sequence.pdf Graphic file (type pdf)
+<use images/caching-sequence.pdf>
+Package luatex.def Info: images/caching-sequence.pdf  used on input line 19.
+(luatex.def)             Requested size: 179.25114pt x 128.035pt.
  [13
 
-<./images/evaluation-approaches.pdf>] [14
-
-]
-<images/user-interests.pdf, id=157, 376.40625pt x 278.54062pt>
-File: images/user-interests.pdf Graphic file (type pdf)
-<use images/user-interests.pdf>
-Package luatex.def Info: images/user-interests.pdf  used on input line 48.
+<./images/caching-sequence.pdf>]
+<images/evaluation-approaches.pdf, id=144, 376.40625pt x 278.54062pt>
+File: images/evaluation-approaches.pdf Graphic file (type pdf)
+<use images/evaluation-approaches.pdf>
+Package luatex.def Info: images/evaluation-approaches.pdf  used on input line 3
+5.
 (luatex.def)             Requested size: 239.00558pt x 176.86707pt.
+ [14
 
-[15
+<./images/evaluation-approaches.pdf>]) (./simulation-methodology/solidbench.tex
+ [15
 
-<./images/user-interests.pdf>]
-<images/logical-sessions.pdf, id=169, 474.27188pt x 218.31563pt>
-File: images/logical-sessions.pdf Graphic file (type pdf)
-<use images/logical-sessions.pdf>
-Package luatex.def Info: images/logical-sessions.pdf  used on input line 65.
-(luatex.def)             Requested size: 239.00558pt x 110.01698pt.
- [16
-
-<./images/logical-sessions.pdf>]
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `FiraMono' (encoding: TU).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
- [17
-
-]
-<images/query-refinement.pdf, id=190, 602.25pt x 278.54062pt>
-File: images/query-refinement.pdf Graphic file (type pdf)
-<use images/query-refinement.pdf>
-Package luatex.def Info: images/query-refinement.pdf  used on input line 98.
-(luatex.def)             Requested size: 338.59023pt x 156.6022pt.
-
-[18
-
-<./images/query-refinement.pdf>]) (./simulation-methodology/solidbench.tex
-[19
-
-]) (./simulation-methodology/simulation-methodology.tex
-<images/solidbench-extensions.pdf, id=204, 677.53125pt x 271.0125pt>
+])
+(./simulation-methodology/simulation-methodology.tex
+<images/solidbench-extensions.pdf, id=168, 677.53125pt x 271.0125pt>
 File: images/solidbench-extensions.pdf Graphic file (type pdf)
 <use images/solidbench-extensions.pdf>
 Package luatex.def Info: images/solidbench-extensions.pdf  used on input line 8
 .
 (luatex.def)             Requested size: 398.3386pt x 159.34184pt.
- [20
+ [16
 
 <./images/solidbench-extensions.pdf>]
-<images/click-through-instantiation.pdf, id=210, 376.40625pt x 271.0125pt>
-File: images/click-through-instantiation.pdf Graphic file (type pdf)
-<use images/click-through-instantiation.pdf>
-Package luatex.def Info: images/click-through-instantiation.pdf  used on input 
-line 24.
-(luatex.def)             Requested size: 239.00558pt x 172.08688pt.
- [21
+<images/sequence-overview.pdf, id=174, 519.44063pt x 150.5625pt>
+File: images/sequence-overview.pdf Graphic file (type pdf)
+<use images/sequence-overview.pdf>
+Package luatex.def Info: images/sequence-overview.pdf  used on input line 21.
+(luatex.def)             Requested size: 338.59023pt x 98.14014pt.
+ [17
 
-<./images/click-through-instantiation.pdf>]
+<./images/sequence-overview.pdf>]
+<images/user-interests.pdf, id=181, 376.40625pt x 278.54062pt>
+File: images/user-interests.pdf Graphic file (type pdf)
+<use images/user-interests.pdf>
+Package luatex.def Info: images/user-interests.pdf  used on input line 45.
+(luatex.def)             Requested size: 199.1693pt x 147.3878pt.
+ [18
+
+<./images/user-interests.pdf>]
+<images/logical-sessions.pdf, id=193, 474.27188pt x 218.31563pt>
 File: images/logical-sessions.pdf Graphic file (type pdf)
 <use images/logical-sessions.pdf>
-Package luatex.def Info: images/logical-sessions.pdf  used on input line 40.
-(luatex.def)             Requested size: 239.00558pt x 110.01698pt.
- [22
+Package luatex.def Info: images/logical-sessions.pdf  used on input line 69.
+(luatex.def)             Requested size: 199.1693pt x 91.68193pt.
+ [19
+
+<./images/logical-sessions.pdf>]
+<images/query-refinement-wide.pdf, id=202, 752.8125pt x 165.61874pt>
+File: images/query-refinement-wide.pdf Graphic file (type pdf)
+<use images/query-refinement-wide.pdf>
+Package luatex.def Info: images/query-refinement-wide.pdf  used on input line 9
+5.
+(luatex.def)             Requested size: 398.3386pt x 87.63599pt.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `FiraMono' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [20
+
+<./images/query-refinement-wide.pdf>]) (./caching/caching.tex [21
 
 ]
-<images/interest-selection.pdf, id=224, 376.40625pt x 271.0125pt>
-File: images/interest-selection.pdf Graphic file (type pdf)
-<use images/interest-selection.pdf>
-Package luatex.def Info: images/interest-selection.pdf  used on input line 59.
-(luatex.def)             Requested size: 219.08743pt x 157.74562pt.
+<images/cache-approaches.pdf, id=222, 677.53125pt x 255.95625pt>
+File: images/cache-approaches.pdf Graphic file (type pdf)
+<use images/cache-approaches.pdf>
+Package luatex.def Info: images/cache-approaches.pdf  used on input line 21.
+(luatex.def)             Requested size: 398.3386pt x 150.48952pt.
+ [22
 
-[23
+<./images/cache-approaches.pdf>] [23
 
-<./images/interest-selection.pdf>]
+])
+(./results/results.tex
+<images/performance_profile.pdf, id=236, 1264.82928pt x 873.91309pt>
+File: images/performance_profile.pdf Graphic file (type pdf)
+<use images/performance_profile.pdf>
+Package luatex.def Info: images/performance_profile.pdf  used on input line 16.
+
+(luatex.def)             Requested size: 350.5399pt x 132.87381pt.
+ [24
+
+<./images/performance_profile.pdf>]
+<images/session-hit-rates.pdf, id=285, 421.575pt x 271.0125pt>
+File: images/session-hit-rates.pdf Graphic file (type pdf)
+<use images/session-hit-rates.pdf>
+Package luatex.def Info: images/session-hit-rates.pdf  used on input line 33.
+(luatex.def)             Requested size: 219.08743pt x 140.84459pt.
+ [25
+
+<./images/session-hit-rates.pdf>]
+<images/combined_cache_efficiency.pdf, id=292, 1057.3101pt x 394.04755pt>
+File: images/combined_cache_efficiency.pdf Graphic file (type pdf)
+<use images/combined_cache_efficiency.pdf>
+Package luatex.def Info: images/combined_cache_efficiency.pdf  used on input li
+ne 41.
+(luatex.def)             Requested size: 398.3386pt x 148.45892pt.
+ [26
+
+<./images/combined_cache_efficiency.pdf>]
+<images/temporal_throughput_line.pdf, id=316, 1057.3101pt x 394.04755pt>
+File: images/temporal_throughput_line.pdf Graphic file (type pdf)
+<use images/temporal_throughput_line.pdf>
+Package luatex.def Info: images/temporal_throughput_line.pdf  used on input lin
+e 49.
+(luatex.def)             Requested size: 398.3386pt x 148.45892pt.
+ [27
+
+<./images/temporal_throughput_line.pdf>]
+<images/performance_profile_random_sequences.pdf, id=349, 1264.82928pt x 479.31
+888pt>
+File: images/performance_profile_random_sequences.pdf Graphic file (type pdf)
+<use images/performance_profile_random_sequences.pdf>
+Package luatex.def Info: images/performance_profile_random_sequences.pdf  used 
+on input line 75.
+(luatex.def)             Requested size: 143.40213pt x 124.71129pt.
+File: images/performance_profile.pdf Graphic file (type pdf)
+<use images/performance_profile.pdf>
+Package luatex.def Info: images/performance_profile.pdf  used on input line 75.
+
+(luatex.def)             Requested size: 161.32663pt x 125.51701pt.
+<images/legend-unindexed.pdf, id=352, 647.41875pt x 27.10126pt>
+File: images/legend-unindexed.pdf Graphic file (type pdf)
+<use images/legend-unindexed.pdf>
+Package luatex.def Info: images/legend-unindexed.pdf  used on input line 75.
+(luatex.def)             Requested size: 278.83578pt x 11.67232pt.
+ [28
+
+<./images/performance_profile_random_sequences.pdf><./images/legend-unindexed.pd
+f>]
+<images/synth_hit_rate_reduced.pdf, id=386, 766.84312pt x 453.27432pt>
+File: images/synth_hit_rate_reduced.pdf Graphic file (type pdf)
+<use images/synth_hit_rate_reduced.pdf>
+Package luatex.def Info: images/synth_hit_rate_reduced.pdf  used on input line 
+92.
+(luatex.def)             Requested size: 239.00558pt x 141.27438pt.
+ [29
+
+<./images/synth_hit_rate_reduced.pdf>] [30
+
+]) [31
+
+</usr/share/texlive/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>] [32
+
+
+] [33
+
+
+] (./supplemental/hyperparameter.tex
 
 Package fontspec Info: Font family 'FiraSansLight(1)' created for font 'Fira
 (fontspec)             Sans Light' with options
@@ -2006,110 +2080,46 @@ tlig;+tnum;"
 tlig;+tnum;+smcp;"
 
 LaTeX Font Info:    Trying to load font information for T1+FiraSansLight(1) on 
-input line 81.
-LaTeX Font Info:    No file T1FiraSansLight(1).fd. on input line 81.
+input line 21.
+LaTeX Font Info:    No file T1FiraSansLight(1).fd. on input line 21.
 
 
 LaTeX Font Warning: Font shape `T1/FiraSansLight(1)/m/n' undefined
-(Font)              using `T1/cmr/m/n' instead on input line 81.
+(Font)              using `T1/cmr/m/n' instead on input line 21.
 
 
 LaTeX Font Warning: Font shape `T1/FiraSansLight(1)/b/n' undefined
-(Font)              using `T1/FiraSansLight(1)/m/n' instead on input line 81.
+(Font)              using `T1/FiraSansLight(1)/m/n' instead on input line 21.
 
-[24
+[34
 
-] [25
+]) (./supplemental/simulation-details.tex
+<images/click-through-instantiation.pdf, id=466, 376.40625pt x 271.0125pt>
+File: images/click-through-instantiation.pdf Graphic file (type pdf)
+<use images/click-through-instantiation.pdf>
+Package luatex.def Info: images/click-through-instantiation.pdf  used on input 
+line 17.
+(luatex.def)             Requested size: 239.00558pt x 172.08688pt.
+ [35
 
-]) (./caching/caching.tex [26
+<./images/click-through-instantiation.pdf>]
+File: images/logical-sessions.pdf Graphic file (type pdf)
+<use images/logical-sessions.pdf>
+Package luatex.def Info: images/logical-sessions.pdf  used on input line 33.
+(luatex.def)             Requested size: 239.00558pt x 110.01698pt.
+ [36
 
 ]
-<images/cache-approaches.pdf, id=254, 677.53125pt x 255.95625pt>
-File: images/cache-approaches.pdf Graphic file (type pdf)
-<use images/cache-approaches.pdf>
-Package luatex.def Info: images/cache-approaches.pdf  used on input line 21.
-(luatex.def)             Requested size: 398.3386pt x 150.48952pt.
- [27
+<images/interest-selection.pdf, id=479, 376.40625pt x 271.0125pt>
+File: images/interest-selection.pdf Graphic file (type pdf)
+<use images/interest-selection.pdf>
+Package luatex.def Info: images/interest-selection.pdf  used on input line 52.
+(luatex.def)             Requested size: 219.08743pt x 157.74562pt.
+ [37
 
-<./images/cache-approaches.pdf>]
-[28
+<./images/interest-selection.pdf>] [38
 
-]) (./results/results.tex
-<images/performance_profile.pdf, id=268, 1264.82928pt x 873.91309pt>
-File: images/performance_profile.pdf Graphic file (type pdf)
-<use images/performance_profile.pdf>
-Package luatex.def Info: images/performance_profile.pdf  used on input line 16.
-
-(luatex.def)             Requested size: 350.5399pt x 132.87381pt.
- [29
-
-<./images/performance_profile.pdf>]
-<images/session-hit-rates.pdf, id=316, 421.575pt x 271.0125pt>
-File: images/session-hit-rates.pdf Graphic file (type pdf)
-<use images/session-hit-rates.pdf>
-Package luatex.def Info: images/session-hit-rates.pdf  used on input line 33.
-(luatex.def)             Requested size: 219.08743pt x 140.84459pt.
- [30
-
-<./images/session-hit-rates.pdf>]
-<images/combined_cache_efficiency.pdf, id=322, 1057.3101pt x 394.04755pt>
-File: images/combined_cache_efficiency.pdf Graphic file (type pdf)
-<use images/combined_cache_efficiency.pdf>
-Package luatex.def Info: images/combined_cache_efficiency.pdf  used on input li
-ne 41.
-(luatex.def)             Requested size: 398.3386pt x 148.45892pt.
- [31
-
-<./images/combined_cache_efficiency.pdf>]
-<images/temporal_throughput_line.pdf, id=347, 1057.3101pt x 394.04755pt>
-File: images/temporal_throughput_line.pdf Graphic file (type pdf)
-<use images/temporal_throughput_line.pdf>
-Package luatex.def Info: images/temporal_throughput_line.pdf  used on input lin
-e 49.
-(luatex.def)             Requested size: 398.3386pt x 148.45892pt.
- [32
-
-<./images/temporal_throughput_line.pdf>]
-<images/performance_profile_random_sequences.pdf, id=381, 1264.82928pt x 479.31
-888pt>
-File: images/performance_profile_random_sequences.pdf Graphic file (type pdf)
-<use images/performance_profile_random_sequences.pdf>
-Package luatex.def Info: images/performance_profile_random_sequences.pdf  used 
-on input line 75.
-(luatex.def)             Requested size: 143.40213pt x 124.71129pt.
-File: images/performance_profile.pdf Graphic file (type pdf)
-<use images/performance_profile.pdf>
-Package luatex.def Info: images/performance_profile.pdf  used on input line 75.
-
-(luatex.def)             Requested size: 161.32663pt x 125.51701pt.
-<images/legend-unindexed.pdf, id=384, 647.41875pt x 27.10126pt>
-File: images/legend-unindexed.pdf Graphic file (type pdf)
-<use images/legend-unindexed.pdf>
-Package luatex.def Info: images/legend-unindexed.pdf  used on input line 75.
-(luatex.def)             Requested size: 278.83578pt x 11.67232pt.
- [33
-
-<./images/performance_profile_random_sequences.pdf><./images/legend-unindexed.pd
-f>]
-<images/synth_hit_rate_reduced.pdf, id=417, 766.84312pt x 453.27432pt>
-File: images/synth_hit_rate_reduced.pdf Graphic file (type pdf)
-<use images/synth_hit_rate_reduced.pdf>
-Package luatex.def Info: images/synth_hit_rate_reduced.pdf  used on input line 
-92.
-(luatex.def)             Requested size: 239.00558pt x 141.27438pt.
- [34
-
-<./images/synth_hit_rate_reduced.pdf>] [35
-
-]) [36
-
-</usr/share/texlive/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>] [37
-
-
-] [38
-
-
-] (./supplemental/hyperparameter.tex [39
+] [39
 
 ])
 \tf@nav=\write7
@@ -2121,7 +2131,8 @@ Package luatex.def Info: images/synth_hit_rate_reduced.pdf  used on input line
 \tf@snm=\write9
 
 \openout9 = main.snm
- (./out/main.aux)
+
+(./out/main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -2138,16 +2149,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 44775 strings out of 476553
+ 44778 strings out of 476553
  125031,1977958 words of node,token memory allocated
- 6198 words of node memory still in use:
-   58 hlist, 9 vlist, 18 rule, 35 disc, 4 local_par, 6 math, 192 glue, 25 kern, 
-12 penalty, 1 margin_kern, 342 glyph, 133 attribute, 81 glue_spec, 133 attribute
-_list, 4 write, 16 pdf_colorstack nodes
-   avail lists: 1:2,2:982,3:294,4:389,5:192,6:68,7:3895,8:31,9:302,10:15,11:254
- 65459 multiletter control sequences out of 65536+600000
+ 5838 words of node memory still in use:
+   41 hlist, 8 vlist, 5 rule, 36 disc, 7 local_par, 2 math, 130 glue, 46 kern, 2
+6 penalty, 2 margin_kern, 365 glyph, 121 attribute, 81 glue_spec, 121 attribute_
+list, 4 write, 38 pdf_colorstack nodes
+   avail lists: 1:2,2:1005,3:279,4:365,5:176,6:51,7:3937,8:31,9:297,10:15,11:253
+
+ 65450 multiletter control sequences out of 65536+600000
  99 fonts using 14125951 bytes
- 128i,13n,133p,1870b,2361s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,13n,133p,1870b,2496s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/t
 exmf-dist/fonts/opentype/public/fira/FiraMono-Regular.otf>{/usr/share/texmf/font
 s/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1
@@ -2162,10 +2174,10 @@ c/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0900.p
 fb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/
 fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm
 -super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb>
-Output written on main.pdf (39 pages, 1701929 bytes).
+Output written on main.pdf (39 pages, 1701075 bytes).
 
-PDF statistics: 557 PDF objects out of 1000 (max. 8388607)
- 348 compressed objects within 4 object streams
+PDF statistics: 561 PDF objects out of 1000 (max. 8388607)
+ 350 compressed objects within 4 object streams
  92 named destinations out of 1000 (max. 131072)
  46 words of extra memory for PDF output out of 10000 (max. 100000000)
 

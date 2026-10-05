@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Wide variant of query-refinement.svg: one query growing through numbered refinement steps -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="220" viewBox="0 0 1000 220" font-family="Fira Sans">
+  <!-- Query -->
+  <rect x="10" y="8" width="480" height="204" rx="10" fill="#008b8f" fill-opacity="0.25" stroke="#000000" stroke-width="1.2"/>
+
+  <!-- Parts changed by a refinement step -->
+  <g fill="#fada5e" fill-opacity="0.8">
+    <rect x="232" y="52" width="88" height="30" rx="4"/>
+    <rect x="50" y="116" width="380" height="30" rx="4"/>
+    <rect x="50" y="148" width="344" height="30" rx="4"/>
+  </g>
+
+  <g font-family="Fira Mono" font-size="20" xml:space="preserve">
+    <text x="30" y="42">SELECT * WHERE {</text>
+    <text x="30" y="74">  ?m :hasCreator &lt;alice&gt; .</text>
+    <text x="30" y="106">  ?m :content ?text .</text>
+    <text x="30" y="138">  FILTER(CONTAINS(?text, "jazz"))</text>
+    <text x="30" y="170">  OPTIONAL { ?m :hasTag ?tag }</text>
+    <text x="30" y="202">}</text>
+  </g>
+
+  <!-- Leaders from each line to its step -->
+  <g stroke="#888888" stroke-width="1.5" stroke-dasharray="5 4">
+    <line x1="348" y1="67" x2="538" y2="67"/>
+    <line x1="292" y1="99" x2="538" y2="99"/>
+    <line x1="436" y1="131" x2="538" y2="131"/>
+    <line x1="400" y1="163" x2="538" y2="163"/>
+  </g>
+
+  <!-- Numbered steps: 0 is the base template -->
+  <circle cx="555" cy="99" r="14" fill="#888888"/>
+  <g fill="#008b8b">
+    <circle cx="555" cy="131" r="14"/>
+    <circle cx="555" cy="163" r="14"/>
+    <circle cx="555" cy="67" r="14"/>
+  </g>
+  <g font-size="18" fill="#ffffff" text-anchor="middle">
+    <text x="555" y="105">0</text>
+    <text x="555" y="137">1</text>
+    <text x="555" y="169">2</text>
+    <text x="555" y="73">3</text>
+  </g>
+
+  <g font-size="20">
+    <text x="580" y="74">Shifting query intent: <tspan fill="#008b8b">new seed</tspan></text>
+    <text x="580" y="106">Base template</text>
+    <text x="580" y="138">Result refinement: <tspan fill="#008b8b">+ FILTER</tspan></text>
+    <text x="580" y="170">Result extension: <tspan fill="#008b8b">+ OPTIONAL</tspan></text>
+  </g>
+</svg>

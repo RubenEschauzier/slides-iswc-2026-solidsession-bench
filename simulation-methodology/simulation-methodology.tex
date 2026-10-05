@@ -7,85 +7,89 @@
     \includegraphics[width=\linewidth]{images/solidbench-extensions.pdf}
 \end{frame}
 
-\begin{frame}{Simulation Methodology: Logical Query Sessions}
+\begin{frame}{Simulation Methodology: Generating a Query Sequence}
+    \centering
+    \includegraphics[width=.85\linewidth]{images/sequence-overview.pdf}
+
+    \vspace{0.5em}
+    \raggedright
+    \begin{itemize}
+        \item Each sequence starts from a randomly selected base user
+        \item Sessions chain dependent queries, refinement streaks modify them step-by-step
+        \item A single seeded random generator keeps sequences reproducible
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Usage Pattern: User Interests}
     \begin{columns}[T]
-        \begin{column}{0.6\textwidth}
-            \includegraphics[width=\linewidth]{images/click-through-instantiation.pdf}
+        \begin{column}{0.5\textwidth}
+            \includegraphics[width=\linewidth]{images/user-interests.pdf}
         \end{column}
 
-        \begin{column}{0.4\textwidth}
-            \begin{itemize}
-                \item Directed template graph: output types map to valid next templates
-                \item Instantiation values sampled from previous results
-                \item Simulates ``click-through'' behavior
-            \end{itemize}
+        \begin{column}{0.5\textwidth}
+            \small
+            \begin{block}{Observed \parencite{mislove2007measurement,mitzlaff2013user}}
+                \begin{itemize}
+                    \item Users form communities around shared interests
+                    \item Shared interests drive more interactions
+                \end{itemize}
+            \end{block}
+            \begin{block}{Simulated}
+                \begin{itemize}
+                    \item User similarity on interests and studies
+                    \item Similar users are more likely to start a session
+                \end{itemize}
+            \end{block}
         \end{column}
     \end{columns}
 \end{frame}
 
-\begin{frame}{Simulation Methodology: Session Switching}
-    \begin{columns}[T]
-        \begin{column}{0.6\textwidth}
+\begin{frame}{Usage Pattern: Logical Sessions}
+    \begin{columns}[c]
+        \begin{column}{0.5\textwidth}
             \includegraphics[width=\linewidth]{images/logical-sessions.pdf}
         \end{column}
 
-        \begin{column}{0.4\textwidth}
-            \begin{itemize}
-                \item Switch probability per sequence: log-normal, mean 15\% \parencite{meiss_whats_2009}
-                \item Switch: new session or resume a previous one (50/50)
-                \item No backtracking, balanced template distribution
-            \end{itemize}
+        \begin{column}{0.5\textwidth}
+            \small
+            \begin{block}{Observed \parencite{meiss_whats_2009}}
+                \begin{itemize}
+                    \item Browsing groups into goal-oriented sessions
+                    \item New sessions in $\sim$15\% of clicks
+                \end{itemize}
+            \end{block}
+            \begin{block}{Simulated}
+                \begin{itemize}
+                    \item Next query instantiated from previous results
+                    \item Switch to a new session or resume an old one
+                \end{itemize}
+            \end{block}
         \end{column}
     \end{columns}
 \end{frame}
 
-\begin{frame}{Simulation Methodology: User Interest Modeling}
-    \begin{columns}[T]
-        \begin{column}{0.55\textwidth}
-            \includegraphics[width=\linewidth]{images/interest-selection.pdf}
-        \end{column}
-
-        \begin{column}{0.45\textwidth}
-            \begin{itemize}
-                \item Binary vector of interests and studies per user
-                \item Cosine similarity to base user $k$, keep top-$M$
-                \item Softmax selects the first query of each session:
-            \end{itemize}
-            \[
-                P(i \mid k) = \frac{e^{s_{k,i}/T}}{\sum_{u \in C_{k,M}} e^{s_{k,u}/T}}
-            \]
-        \end{column}
-    \end{columns}
-\end{frame}
-
-\begin{frame}{Simulation Methodology: Refinement Patterns}
+\begin{frame}{Usage Pattern: Query Refinement}
     \centering
-    \begin{tabular}{lll}
-        \toprule
-        \textbf{Behavior} & \textbf{Transformation} & \textbf{Choke points} \\
-        \midrule
-        Result refinement      & $\pm$ \texttt{FILTER}, $\pm$ selective triple patterns & P.1, P.3 \\
-        Result generalization  & $+$ (non-)selective triple patterns                    & P.3, P.4 \\
-        Result extension       & $+$ triple patterns, $+$ \texttt{OPTIONAL}/\texttt{UNION} & P.2--P.4 \\
-        Query refinement       & $\pm$ \texttt{OPTIONAL}/\texttt{UNION}                 & P.2 \\
-        Shifting query intent  & New instantiation values (seeds)                       & T.1, T.2 \\
-        \bottomrule
-    \end{tabular}
+    \includegraphics[width=\linewidth]{images/query-refinement-wide.pdf}
 
-    \vspace{1em}
-    \footnotesize
-    \begin{tabular}{ll}
-        P.1 Filters            & P.2 Filter push-down through \texttt{OPTIONAL}/\texttt{UNION} \\
-        P.3 Selective patterns & P.4 Non-selective patterns \\
-    \end{tabular}
-\end{frame}
-
-\begin{frame}{Simulation Methodology: Refinements Impact Traversal}
-    \begin{itemize}\setlength\itemsep{1em}
-        \item \textbf{T.1} Predicate additions expand or contract the reachable sub-web
-        \item \textbf{T.2} New starting points change the reachable documents
-        \item \textbf{T.3} Changes the number of hops to relevant data (SolidBench L.1--L.6)
-        \item \textbf{T.4} Alters usability of structural indexes, such as type indexes (L.8)
-        \item[$\Rightarrow$] Custom refinement patterns can be defined in JSON
-    \end{itemize}
+    \begin{columns}[T]
+        \begin{column}{0.48\textwidth}
+            \small
+            \begin{block}{Observed \parencite{bonifati2020analytical,arenas2025exploring}}
+                \begin{itemize}
+                    \item Queries refined step-by-step
+                    \item Mostly \texttt{FILTER}, \texttt{UNION}, \texttt{OPTIONAL}
+                \end{itemize}
+            \end{block}
+        \end{column}
+        \begin{column}{0.48\textwidth}
+            \small
+            \begin{block}{Simulated}
+                \begin{itemize}
+                    \item Composable transformations on queries
+                    \item Each targets planning and traversal choke points
+                \end{itemize}
+            \end{block}
+        \end{column}
+    \end{columns}
 \end{frame}
