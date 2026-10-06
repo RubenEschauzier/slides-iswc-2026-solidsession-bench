@@ -1,9 +1,9 @@
-PWD /home/ruben-eschauzier/projects/slides/slides-iswc-2026-solidsessionbench
+PWD /home/ruben-eschauzier/slides/slides-iswc-2026-solidsession-bench
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/ruben-eschauzier/projects/slides/slides-iswc-2026-solidsessionbench/main.tex
+INPUT /home/ruben-eschauzier/slides/slides-iswc-2026-solidsession-bench/main.tex
 OUTPUT build/main.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls

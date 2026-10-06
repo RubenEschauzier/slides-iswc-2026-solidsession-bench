@@ -3,6 +3,9 @@
 %     other evaluation methods miss them or point to the wrong conclusion
 %   - Session chart is drawn from Table 2 of the paper (bars: mean over the 3 algorithms per cache size)
 
+
+
+
 \begin{frame}{Results: All Caches Outperform No Caching}
     \centering
     \includegraphics[width=.88\linewidth,trim=0 393 0 0,clip]{images/performance_profile.pdf}
@@ -24,9 +27,7 @@
         \begin{column}{0.45\textwidth}
             \begin{itemize}
                 \item Hit rate compared to the average of the same template
-                \item New sessions: $-12\%$
-                \item Staying in a session: $+3\%$
-                \item Strongest for small caches (S: $-17\%$ on new sessions)
+                \item Strongest for small caches
                 \item[$\Rightarrow$] Cache sizing and eviction depend on session behavior
             \end{itemize}
         \end{column}
