@@ -169,6 +169,42 @@
       \field{pages}{655\bibrangedash 679}
       \range{pages}{25}
     \endentry
+    \entry{dolan2002benchmarking}{article}{}
+      \name{author}{2}{}{%
+        {{hash=aae907590cbbab65e83b9ffbb205fce7}{%
+           family={Dolan},
+           familyi={D\bibinitperiod},
+           given={Elizabeth\bibnamedelima D},
+           giveni={E\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=a9a66b314c9ad619a4bdf7ae4261f894}{%
+           family={Moré},
+           familyi={M\bibinitperiod},
+           given={Jorge\bibnamedelima J},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{8a9cfc0a37b6fbc1c38c5c6a9feb7a5e}
+      \strng{fullhash}{8a9cfc0a37b6fbc1c38c5c6a9feb7a5e}
+      \strng{bibnamehash}{8a9cfc0a37b6fbc1c38c5c6a9feb7a5e}
+      \strng{authorbibnamehash}{8a9cfc0a37b6fbc1c38c5c6a9feb7a5e}
+      \strng{authornamehash}{8a9cfc0a37b6fbc1c38c5c6a9feb7a5e}
+      \strng{authorfullhash}{8a9cfc0a37b6fbc1c38c5c6a9feb7a5e}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mathematical programming}
+      \field{number}{2}
+      \field{title}{Benchmarking optimization software with performance profiles}
+      \field{volume}{91}
+      \field{year}{2002}
+      \field{pages}{201\bibrangedash 213}
+      \range{pages}{13}
+    \endentry
     \entry{hartig2011caching}{inproceedings}{}
       \name{author}{1}{}{%
         {{hash=2076c60fe17dc3769696535197077f9a}{%
@@ -466,6 +502,50 @@
       \field{year}{2015}
       \field{pages}{261\bibrangedash 269}
       \range{pages}{9}
+    \endentry
+    \entry{taelman2018comunica}{inproceedings}{}
+      \name{author}{4}{ul=2}{%
+        {{hash=f9a485a3b7f133ec13b1eba6b475851f}{%
+           family={Taelman},
+           familyi={T\bibinitperiod},
+           given={Ruben},
+           giveni={R\bibinitperiod}}}%
+        {{hash=533a353a7d1659a3a4195efc41cee6be}{%
+           family={Van\bibnamedelima Herwegen},
+           familyi={V\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={Joachim},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3d07782186d6043a469195fab09d6a9f}{%
+           family={Vander\bibnamedelima Sande},
+           familyi={V\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Miel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f6f7b1f03b36b6df0b508d6e0e17c85d}{%
+           family={Verborgh},
+           familyi={V\bibinitperiod},
+           given={Ruben},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{56ee30fa76898951a30f16c6514ee83d}
+      \strng{fullhash}{cf89144b308812642e805f5e755ff86c}
+      \strng{bibnamehash}{56ee30fa76898951a30f16c6514ee83d}
+      \strng{authorbibnamehash}{56ee30fa76898951a30f16c6514ee83d}
+      \strng{authornamehash}{56ee30fa76898951a30f16c6514ee83d}
+      \strng{authorfullhash}{cf89144b308812642e805f5e755ff86c}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Semantic Web Conference}
+      \field{title}{Comunica: a modular SPARQL query engine for the web}
+      \field{year}{2018}
+      \field{pages}{239\bibrangedash 255}
+      \range{pages}{17}
     \endentry
     \entry{taelman2023link}{inproceedings}{}
       \name{author}{2}{}{%

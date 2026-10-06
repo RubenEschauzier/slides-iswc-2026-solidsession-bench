@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber build/main"] 1791217430.04066 "build/main.bcf" "build/main.bbl" "build/main" 1791221009.84293 0
-  "build/main.bcf" 1791221009.72508 108935 68b93e04f9f1de5d408acb8de6c61392 "pdflatex"
+["biber build/main"] 1791278241.9102 "build/main.bcf" "build/main.bbl" "build/main" 1791278246.64482 0
+  "build/main.bcf" 1791278246.52319 108935 d560489a9df0e0ae183a32089a1ed1a7 "pdflatex"
   "references/references.bib" 1790763941.17973 4032 99e9483eb53fa7b1152815dd0ff6398a ""
   (generated)
   "build/main.bbl"
   "build/main.blg"
   (rewritten before read)
-["pdflatex"] 1791221007.74071 "/home/ruben-eschauzier/projects/slides/slides-iswc-2026-solidsessionbench/main.tex" "build/main.pdf" "main" 1791221009.84316 0
+["pdflatex"] 1791278244.53906 "/home/ruben-eschauzier/projects/slides/slides-iswc-2026-solidsessionbench/main.tex" "build/main.pdf" "main" 1791278246.64506 0
   "/etc/texmf/web2c/texmf.cnf" 1776157125.05128 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/ruben-eschauzier/projects/slides/slides-iswc-2026-solidsessionbench/main.tex" 1791216720.67938 1948 48601871dcc89c26badf3cdd91ae5059 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -311,11 +311,11 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1776158142.32945 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1776158218 8215736 0d237488e1a468e7958fd6142b453959 ""
-  "build/main.aux" 1791221009.72284 8463 12c07c4d31e42ea22e5f80dbf87806f8 "pdflatex"
-  "build/main.bbl" 1791217430.59196 23027 f623f8e0c84a9dbb2bd342c0e0369740 "biber build/main"
-  "build/main.nav" 1791221009.72626 3806 17c33967d5cd8b69ae003795a52d1c58 "pdflatex"
-  "build/main.out" 1791221008.58879 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "build/main.run.xml" 1791221009.72626 2322 46abf02bea78119e8ed9d43aef182162 "pdflatex"
+  "build/main.aux" 1791278246.52096 8463 3f0ba4b59101216405d7335f20bc7b5c "pdflatex"
+  "build/main.bbl" 1791278242.47222 23027 f623f8e0c84a9dbb2bd342c0e0369740 "biber build/main"
+  "build/main.nav" 1791278246.52476 3806 17c33967d5cd8b69ae003795a52d1c58 "pdflatex"
+  "build/main.out" 1791278245.38893 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "build/main.run.xml" 1791278246.52476 2322 46abf02bea78119e8ed9d43aef182162 "pdflatex"
   "caching/caching.tex" 1790767456.30166 1706 972c81ab86ade8a1de066f5656cf3c3c ""
   "images/cache-approaches.pdf" 1790767482.51559 35641 66e7fb392a214a6286b5925038e7cf46 ""
   "images/caching-sequence.pdf" 1791217316.60069 8170 760c834f68670caf3d41b3d35e2b0523 ""
@@ -334,7 +334,7 @@
   "images/performance_profile_random_sequences.pdf" 1790768166.74234 78526 ca124a32835ac255a8e5c6c37438ca47 ""
   "images/query-refinement-wide.pdf" 1791217115.04106 25556 04d043741aaa2a86f3c37cbf23b7b5da ""
   "images/sequence-overview.pdf" 1791220432.24644 16609 09d9a24f01506b9f8062bcb5a280d0bb ""
-  "images/session-hit-rates.pdf" 1790763897.39284 11712 e48e484c2a3f5b05a364a51c7d0aed44 ""
+  "images/session-hit-rates.pdf" 1791275850.52953 16967 84e5e00275d43cf9bae0d1c647ee27f1 ""
   "images/showing-link-traversal-step-0.pdf" 1790756177.93705 1436 73c3f99906e01d5c3d6a7b909879ee98 ""
   "images/showing-link-traversal-step-1.pdf" 1790756177.94811 2117 3d5d2f182f32c2219b609d1c893ecee4 ""
   "images/showing-link-traversal-step-2.pdf" 1790756177.96008 3852 7fb6055c0a14f3617dcc28caab3e1b3e ""
@@ -346,11 +346,11 @@
   "introduction/introduction_ltqp.tex" 1791219821.86853 3455 53582c3a7c6c62f4c2631bccc5fb1c95 ""
   "introduction/introduction_optimization.tex" 1790759234.62118 1707 42975e3a6d283ce773b15005c8f3cc21 ""
   "introduction/introduction_problem.tex" 1791219714.10894 5025 f9b8045faca4f6834afd6b7b7b137633 ""
-  "literature/literature.tex" 1791220355.16521 1443 7f4b5694ae1bf02ffd9d1b5f7c50f8db ""
+  "literature/literature.tex" 1791276814.86114 1644 bbe969a1b2e603cebab9e803ee0e3600 ""
   "main.tex" 1791216720.67938 1948 48601871dcc89c26badf3cdd91ae5059 ""
-  "problem-statement/problem-statement.tex" 1790757138.83062 636 ea548fd2321a071a229f12cb92fc768d ""
-  "results/results.tex" 1790768389.54861 3794 ee18cf08c206034ca1e1b927e05c6d07 ""
-  "simulation-methodology/simulation-methodology.tex" 1791221003.35026 3528 4733e6a0233d360051edb5dfcf0efa24 ""
+  "problem-statement/problem-statement.tex" 1791276743.25387 172 3307bb8ee1bf8be14d778fa9576feb8b ""
+  "results/results.tex" 1791275872.70042 3883 023071121d7654a53546e1d2567c5fef ""
+  "simulation-methodology/simulation-methodology.tex" 1791278240.44913 3551 4dfc79f9047590a29818d7daf34f5540 ""
   "simulation-methodology/solidbench.tex" 1791210742.43639 814 7fce9389ee7ba650b1282a832537d304 ""
   "supplemental/hyperparameter.tex" 1790767256.25963 865 26f09f487f44a0c44da9cee49d490c11 ""
   "supplemental/simulation-details.tex" 1791216720.67927 3579 860e0cdad28188d24783e38dc0b8b27f ""

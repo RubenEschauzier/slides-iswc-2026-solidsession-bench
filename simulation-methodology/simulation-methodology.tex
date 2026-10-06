@@ -20,6 +20,31 @@
     \end{itemize}
 \end{frame}
 
+
+\begin{frame}{Usage Pattern: Logical Sessions}
+    \begin{columns}[c]
+        \begin{column}{0.5\textwidth}
+            \includegraphics[width=\linewidth]{images/logical-sessions.pdf}
+        \end{column}
+
+        \begin{column}{0.5\textwidth}
+            \small
+            \begin{block}{Observed \parencite{meiss_whats_2009}}
+                \begin{itemize}
+                    \item Browsing groups into goal-oriented sessions
+                    \item New sessions in $\sim$15\% of clicks
+                \end{itemize}
+            \end{block}
+            \begin{block}{Simulated}
+                \begin{itemize}
+                    \item Next query instantiated from previous results
+                    \item Switch to a new session or resume an old one
+                \end{itemize}
+            \end{block}
+        \end{column}
+    \end{columns}
+\end{frame} 
+
 \begin{frame}{Usage Pattern: User Interests}
     \begin{columns}[T]
         \begin{column}{0.5\textwidth}
@@ -44,29 +69,6 @@
     \end{columns}
 \end{frame}
 
-\begin{frame}{Usage Pattern: Logical Sessions}
-    \begin{columns}[c]
-        \begin{column}{0.5\textwidth}
-            \includegraphics[width=\linewidth]{images/logical-sessions.pdf}
-        \end{column}
-
-        \begin{column}{0.5\textwidth}
-            \small
-            \begin{block}{Observed \parencite{meiss_whats_2009}}
-                \begin{itemize}
-                    \item Browsing groups into goal-oriented sessions
-                    \item New sessions in $\sim$15\% of clicks
-                \end{itemize}
-            \end{block}
-            \begin{block}{Simulated}
-                \begin{itemize}
-                    \item Next query instantiated from previous results
-                    \item Switch to a new session or resume an old one
-                \end{itemize}
-            \end{block}
-        \end{column}
-    \end{columns}
-\end{frame}
 
 \begin{frame}{Usage Pattern: Query Refinement}
     \centering
@@ -87,7 +89,7 @@
             \begin{block}{Simulated}
                 \begin{itemize}
                     \item Composable transformations on queries
-                    \item Each targets planning and traversal choke points
+                    \item Randomly select sequence of transformations to add to query sequence
                 \end{itemize}
             \end{block}
         \end{column}
