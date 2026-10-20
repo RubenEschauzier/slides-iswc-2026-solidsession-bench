@@ -12,7 +12,7 @@
       \begin{itemize}
         \item Personalized optimization relies on data from preceding queries
         \item Caching is a direct, well-studied instance of this \parencite{hartig2011caching}
-        \item[$\Rightarrow$] How does the caching literature evaluate such techniques?
+        \item \emph{How does the caching literature evaluate such techniques?}
       \end{itemize}
     \end{column}
   \end{columns}
@@ -26,9 +26,10 @@
 
     \begin{column}{0.4\textwidth}
       \begin{itemize}
-        \item Micro benchmarks isolate single variables \parencite{hartig2011caching,nicholson2024hpcache}
-        \item End-to-end benchmarks group unrelated queries \parencite{bizer2011berlin,martin2010improving}
-        \item Real-world query logs are the gold standard \parencite{saleem2015lsq}, but none exist for LTQP
+        \item Micro benchmarks isolate single variables
+        \item End-to-end benchmarks group unrelated queries or simulate simple patterns
+        \item Handcrafted workloads are high quality, but small
+        \item Real-world query logs do not exist for discovery-based querying
       \end{itemize}
     \end{column}
   \end{columns}

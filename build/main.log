@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.5)  6 OCT 2026 15:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.5)  20 OCT 2026 10:30
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1373,7 +1373,7 @@ Overfull \vbox (22.81535pt too high) detected at line 62
 <images/how-to-find-sources.pdf, id=73, 510.58803pt x 645.75899pt>
 File: images/how-to-find-sources.pdf Graphic file (type pdf)
 <use images/how-to-find-sources.pdf>
-Package pdftex.def Info: images/how-to-find-sources.pdf  used on input line 79.
+Package pdftex.def Info: images/how-to-find-sources.pdf  used on input line 80.
 (pdftex.def)             Requested size: 143.4048pt x 181.36307pt.
  [4
 
@@ -1443,7 +1443,7 @@ Package pdftex.def Info: images/caching-sequence.pdf  used on input line 19.
 <images/evaluation-approaches.pdf, id=158, 376.40625pt x 278.54062pt>
 File: images/evaluation-approaches.pdf Graphic file (type pdf)
 <use images/evaluation-approaches.pdf>
-Package pdftex.def Info: images/evaluation-approaches.pdf  used on input line 35.
+Package pdftex.def Info: images/evaluation-approaches.pdf  used on input line 36.
 (pdftex.def)             Requested size: 239.00558pt x 176.86707pt.
  [13
 
@@ -1452,39 +1452,31 @@ Package pdftex.def Info: images/evaluation-approaches.pdf  used on input line 35
 ]) (./simulation-methodology/solidbench.tex [15
 
 ]) (./simulation-methodology/simulation-methodology.tex
-<images/solidbench-extensions.pdf, id=190, 677.53125pt x 271.0125pt>
-File: images/solidbench-extensions.pdf Graphic file (type pdf)
-<use images/solidbench-extensions.pdf>
-Package pdftex.def Info: images/solidbench-extensions.pdf  used on input line 8.
-(pdftex.def)             Requested size: 398.3386pt x 159.34184pt.
- [16
-
- <./images/solidbench-extensions.pdf>]
-<images/sequence-overview.pdf, id=198, 519.44063pt x 150.5625pt>
+<images/sequence-overview.pdf, id=181, 519.44063pt x 150.5625pt>
 File: images/sequence-overview.pdf Graphic file (type pdf)
 <use images/sequence-overview.pdf>
 Package pdftex.def Info: images/sequence-overview.pdf  used on input line 21.
 (pdftex.def)             Requested size: 338.59023pt x 98.14014pt.
- [17
+ [16
 
  <./images/sequence-overview.pdf>]
-<images/logical-sessions.pdf, id=206, 474.27188pt x 218.31563pt>
+<images/logical-sessions.pdf, id=189, 474.27188pt x 218.31563pt>
 File: images/logical-sessions.pdf Graphic file (type pdf)
 <use images/logical-sessions.pdf>
 Package pdftex.def Info: images/logical-sessions.pdf  used on input line 46.
 (pdftex.def)             Requested size: 199.1693pt x 91.68193pt.
- [18
+ [17
 
  <./images/logical-sessions.pdf>]
-<images/user-interests.pdf, id=217, 376.40625pt x 278.54062pt>
+<images/user-interests.pdf, id=201, 376.40625pt x 278.54062pt>
 File: images/user-interests.pdf Graphic file (type pdf)
 <use images/user-interests.pdf>
 Package pdftex.def Info: images/user-interests.pdf  used on input line 70.
 (pdftex.def)             Requested size: 199.1693pt x 147.3878pt.
- [19
+ [18
 
  <./images/user-interests.pdf>]
-<images/query-refinement-wide.pdf, id=230, 752.8125pt x 165.61874pt>
+<images/query-refinement-wide.pdf, id=213, 752.8125pt x 165.61874pt>
 File: images/query-refinement-wide.pdf Graphic file (type pdf)
 <use images/query-refinement-wide.pdf>
 Package pdftex.def Info: images/query-refinement-wide.pdf  used on input line 97.
@@ -1497,58 +1489,58 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [20
+ [19
 
- <./images/query-refinement-wide.pdf>]) (./caching/caching.tex [21
+ <./images/query-refinement-wide.pdf>]) (./caching/caching.tex [20
 
 ]
-<images/cache-approaches.pdf, id=249, 677.53125pt x 255.95625pt>
+<images/cache-approaches.pdf, id=233, 677.53125pt x 255.95625pt>
 File: images/cache-approaches.pdf Graphic file (type pdf)
 <use images/cache-approaches.pdf>
-Package pdftex.def Info: images/cache-approaches.pdf  used on input line 21.
+Package pdftex.def Info: images/cache-approaches.pdf  used on input line 22.
 (pdftex.def)             Requested size: 398.3386pt x 150.48952pt.
 
-Overfull \vbox (0.71486pt too high) detected at line 21
+Overfull \vbox (0.71486pt too high) detected at line 22
  []
 
-[22
+[21
 
- <./images/cache-approaches.pdf>] [23
+ <./images/cache-approaches.pdf>] [22
 
 ]) (./results/results.tex
-<images/performance_profile.pdf, id=264, 1264.82927pt x 873.91306pt>
+<images/performance_profile.pdf, id=246, 1264.82927pt x 873.91306pt>
 File: images/performance_profile.pdf Graphic file (type pdf)
 <use images/performance_profile.pdf>
 Package pdftex.def Info: images/performance_profile.pdf  used on input line 19.
 (pdftex.def)             Requested size: 350.5399pt x 132.8738pt.
- [24
+ [23
 
  <./images/performance_profile.pdf>]
-<images/session-hit-rates.pdf, id=310, 451.6875pt x 308.65312pt>
+<images/session-hit-rates.pdf, id=292, 451.6875pt x 308.65312pt>
 File: images/session-hit-rates.pdf Graphic file (type pdf)
 <use images/session-hit-rates.pdf>
 Package pdftex.def Info: images/session-hit-rates.pdf  used on input line 35.
 (pdftex.def)             Requested size: 219.08743pt x 149.71071pt.
- [25
+ [24
 
  <./images/session-hit-rates.pdf>]
-<images/combined_cache_efficiency.pdf, id=319, 1057.31009pt x 394.04753pt>
+<images/combined_cache_efficiency.pdf, id=300, 1057.31009pt x 394.04753pt>
 File: images/combined_cache_efficiency.pdf Graphic file (type pdf)
 <use images/combined_cache_efficiency.pdf>
 Package pdftex.def Info: images/combined_cache_efficiency.pdf  used on input line 43.
 (pdftex.def)             Requested size: 398.3386pt x 148.45891pt.
- [26
+ [25
 
  <./images/combined_cache_efficiency.pdf>]
-<images/temporal_throughput_line.pdf, id=338, 1057.31009pt x 394.04753pt>
+<images/temporal_throughput_line.pdf, id=320, 1057.31009pt x 394.04753pt>
 File: images/temporal_throughput_line.pdf Graphic file (type pdf)
 <use images/temporal_throughput_line.pdf>
 Package pdftex.def Info: images/temporal_throughput_line.pdf  used on input line 51.
 (pdftex.def)             Requested size: 398.3386pt x 148.45891pt.
- [27
+ [26
 
  <./images/temporal_throughput_line.pdf>]
-<images/performance_profile_random_sequences.pdf, id=367, 1264.82927pt x 479.31886pt>
+<images/performance_profile_random_sequences.pdf, id=348, 1264.82927pt x 479.31886pt>
 File: images/performance_profile_random_sequences.pdf Graphic file (type pdf)
 <use images/performance_profile_random_sequences.pdf>
 Package pdftex.def Info: images/performance_profile_random_sequences.pdf  used on input line 77.
@@ -1557,59 +1549,56 @@ File: images/performance_profile.pdf Graphic file (type pdf)
 <use images/performance_profile.pdf>
 Package pdftex.def Info: images/performance_profile.pdf  used on input line 77.
 (pdftex.def)             Requested size: 161.32663pt x 125.517pt.
-<images/legend-unindexed.pdf, id=370, 647.41875pt x 27.10126pt>
+<images/legend-unindexed.pdf, id=351, 647.41875pt x 27.10126pt>
 File: images/legend-unindexed.pdf Graphic file (type pdf)
 <use images/legend-unindexed.pdf>
 Package pdftex.def Info: images/legend-unindexed.pdf  used on input line 77.
 (pdftex.def)             Requested size: 278.83578pt x 11.67232pt.
- [28
+ [27
 
  <./images/legend-unindexed.pdf> <./images/performance_profile_random_sequences.pdf>]
-<images/synth_hit_rate_reduced.pdf, id=399, 766.84312pt x 453.27434pt>
+<images/synth_hit_rate_reduced.pdf, id=381, 766.84312pt x 453.27434pt>
 File: images/synth_hit_rate_reduced.pdf Graphic file (type pdf)
 <use images/synth_hit_rate_reduced.pdf>
 Package pdftex.def Info: images/synth_hit_rate_reduced.pdf  used on input line 94.
 (pdftex.def)             Requested size: 239.00558pt x 141.27438pt.
- [29
+ [28
 
- <./images/synth_hit_rate_reduced.pdf>] [30
+ <./images/synth_hit_rate_reduced.pdf>] [29
 
-]) [31
+]) [30
 
- </usr/share/texlive/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>] [32
-
-
-] [33
+ </usr/share/texlive/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>] [31
 
 
-] (./supplemental/hyperparameter.tex [34
+] (./supplemental/hyperparameter.tex [32
 
 ]) (./supplemental/simulation-details.tex
-<images/click-through-instantiation.pdf, id=478, 376.40625pt x 271.0125pt>
+<images/click-through-instantiation.pdf, id=455, 376.40625pt x 271.0125pt>
 File: images/click-through-instantiation.pdf Graphic file (type pdf)
 <use images/click-through-instantiation.pdf>
 Package pdftex.def Info: images/click-through-instantiation.pdf  used on input line 17.
 (pdftex.def)             Requested size: 239.00558pt x 172.08688pt.
- [35
+ [33
 
  <./images/click-through-instantiation.pdf>]
 File: images/logical-sessions.pdf Graphic file (type pdf)
 <use images/logical-sessions.pdf>
 Package pdftex.def Info: images/logical-sessions.pdf  used on input line 33.
 (pdftex.def)             Requested size: 239.00558pt x 110.01698pt.
- [36
+ [34
 
 ]
-<images/interest-selection.pdf, id=492, 376.40625pt x 271.0125pt>
+<images/interest-selection.pdf, id=469, 376.40625pt x 271.0125pt>
 File: images/interest-selection.pdf Graphic file (type pdf)
 <use images/interest-selection.pdf>
 Package pdftex.def Info: images/interest-selection.pdf  used on input line 52.
 (pdftex.def)             Requested size: 219.08743pt x 157.74562pt.
- [37
+ [35
 
- <./images/interest-selection.pdf>] [38
+ <./images/interest-selection.pdf>] [36
 
-] [39
+] [37
 
 ])
 \tf@nav=\write7
@@ -1633,18 +1622,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42071 strings out of 474222
- 841314 string characters out of 5748734
- 1936975 words of memory out of 5000000
- 63361 multiletter control sequences out of 15000+600000
- 588903 words of font info for 168 fonts, out of 8000000 for 9000
+ 42019 strings out of 474222
+ 839917 string characters out of 5748734
+ 1934975 words of memory out of 5000000
+ 63325 multiletter control sequences out of 15000+600000
+ 589416 words of font info for 165 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,13n,123p,1937b,2482s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsi1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on build/main.pdf (39 pages, 1600469 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsi1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsi1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb>
+Output written on build/main.pdf (37 pages, 1591137 bytes).
 PDF statistics:
- 636 PDF objects out of 1000 (max. 8388607)
- 405 compressed objects within 5 object streams
- 92 named destinations out of 1000 (max. 500000)
- 54463 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 614 PDF objects out of 1000 (max. 8388607)
+ 385 compressed objects within 4 object streams
+ 83 named destinations out of 1000 (max. 500000)
+ 56506 words of extra memory for PDF output out of 61914 (max. 10000000)
 
