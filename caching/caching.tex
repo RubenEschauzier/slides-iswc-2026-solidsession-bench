@@ -5,10 +5,9 @@
 
 \begin{frame}{Validating the Benchmark: Client-side Caching}
     \begin{itemize}\setlength\itemsep{1em}
-        \item Caching directly exploits data from past queries \parencite{hartig2011caching}
-        \item Correlated query sequences should lead to cache hits
-        \item Cache hit rates reveal whether our sequences behave as intended
-        \item[$\Rightarrow$] Goal: validate the benchmark, not an exhaustive cache comparison
+        \item Performance of caching documents relies on data locality between queries
+        \item Investigating cache performance reveals insights into our simulation
+        \item Goal: validate the benchmark, not an exhaustive cache comparison
     \end{itemize}
 \end{frame}
 
@@ -17,7 +16,7 @@
     \includegraphics[width=\linewidth]{images/cache-approaches.pdf}
 
     \vspace{0.5em}
-    
+
     Implemented in Comunica, LRU eviction, three sizes: S (350k quads, $\sim$10\%), M (700k, $\sim$20\%), L (1.4M, $\sim$40\%)
 \end{frame}
 

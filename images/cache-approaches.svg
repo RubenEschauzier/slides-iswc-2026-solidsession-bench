@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="340" viewBox="0 0 900 340" font-family="Fira Sans">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="405" viewBox="0 0 1000 405" font-family="Fira Sans">
   <defs>
     <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
       <path d="M0,1 L9,5 L0,9 z" fill="#000000"/>
+    </marker>
+    <marker id="arrow-teal" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#008b8b"/>
+    </marker>
+    <marker id="arrow-grey" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#d3d3d3"/>
     </marker>
     <!-- One raw triple: subject, predicate, object -->
     <g id="triple-raw">
@@ -17,135 +23,117 @@
     </g>
     <!-- One indexed store: three permutation indexes, matching entries in teal -->
     <g id="index-store">
-      <g font-size="12" fill="#555555" text-anchor="middle">
-        <text x="25" y="0">SPO</text>
-        <text x="85" y="0">POS</text>
-        <text x="145" y="0">OSP</text>
+      <g font-size="16" fill="#444444" text-anchor="middle">
+        <text x="22" y="0">SPO</text>
+        <text x="72" y="0">POS</text>
+        <text x="122" y="0">OSP</text>
       </g>
       <g fill="#ffffff" stroke="#888888" stroke-width="1">
-        <rect x="0" y="6" width="50" height="52" rx="3"/>
-        <rect x="60" y="6" width="50" height="52" rx="3"/>
-        <rect x="120" y="6" width="50" height="52" rx="3"/>
+        <rect x="0" y="6" width="44" height="50" rx="3"/>
+        <rect x="50" y="6" width="44" height="50" rx="3"/>
+        <rect x="100" y="6" width="44" height="50" rx="3"/>
       </g>
       <g fill="#d3d3d3">
-        <rect x="5" y="11" width="40" height="8" rx="2"/>
-        <rect x="5" y="23" width="40" height="8" rx="2"/>
-        <rect x="5" y="35" width="40" height="8" rx="2"/>
-        <rect x="5" y="47" width="40" height="6" rx="2"/>
-        <rect x="65" y="11" width="40" height="8" rx="2"/>
-        <rect x="65" y="23" width="40" height="8" rx="2"/>
-        <rect x="65" y="35" width="40" height="8" rx="2"/>
-        <rect x="65" y="47" width="40" height="6" rx="2"/>
-        <rect x="125" y="11" width="40" height="8" rx="2"/>
-        <rect x="125" y="23" width="40" height="8" rx="2"/>
-        <rect x="125" y="35" width="40" height="8" rx="2"/>
-        <rect x="125" y="47" width="40" height="6" rx="2"/>
+        <rect x="5" y="11" width="34" height="8" rx="2"/>
+        <rect x="5" y="23" width="34" height="8" rx="2"/>
+        <rect x="5" y="35" width="34" height="8" rx="2"/>
+        <rect x="5" y="47" width="34" height="5" rx="2"/>
+        <rect x="55" y="11" width="34" height="8" rx="2"/>
+        <rect x="55" y="23" width="34" height="8" rx="2"/>
+        <rect x="55" y="35" width="34" height="8" rx="2"/>
+        <rect x="55" y="47" width="34" height="5" rx="2"/>
+        <rect x="105" y="11" width="34" height="8" rx="2"/>
+        <rect x="105" y="23" width="34" height="8" rx="2"/>
+        <rect x="105" y="35" width="34" height="8" rx="2"/>
+        <rect x="105" y="47" width="34" height="5" rx="2"/>
       </g>
       <g fill="#008b8b">
-        <rect x="65" y="23" width="40" height="8" rx="2"/>
-        <rect x="65" y="35" width="40" height="8" rx="2"/>
+        <rect x="55" y="23" width="34" height="8" rx="2"/>
+        <rect x="55" y="35" width="34" height="8" rx="2"/>
       </g>
     </g>
   </defs>
 
-  <!-- Cards: one per caching approach -->
-  <g stroke="#000000" stroke-width="1.2" fill="none">
-    <rect x="20" y="20" width="260" height="300" rx="12"/>
-    <rect x="320" y="20" width="260" height="300" rx="12"/>
-    <rect x="620" y="20" width="260" height="300" rx="12"/>
-  </g>
-  <g fill="#000000" fill-opacity="0.12">
-    <path d="M20,70 V32 a12,12 0 0 1 12,-12 H268 a12,12 0 0 1 12,12 V70 z"/>
-    <path d="M320,70 V32 a12,12 0 0 1 12,-12 H568 a12,12 0 0 1 12,12 V70 z"/>
-    <path d="M620,70 V32 a12,12 0 0 1 12,-12 H868 a12,12 0 0 1 12,12 V70 z"/>
-  </g>
-  <g stroke="#000000" stroke-width="1.2">
-    <line x1="20" y1="70" x2="280" y2="70"/>
-    <line x1="320" y1="70" x2="580" y2="70"/>
-    <line x1="620" y1="70" x2="880" y2="70"/>
-  </g>
-  <g font-size="22" text-anchor="middle">
-    <text x="150" y="53">Unindexed cache</text>
-    <text x="450" y="53">Indexed cache</text>
-    <text x="750" y="53">+ Cardinality estimation</text>
-  </g>
+  <!-- Link traversal: every node is a document, as in the traversal slides -->
+  <text x="150" y="32" font-size="26" text-anchor="middle">Link traversal</text>
+  <line x1="57.8" y1="106.1" x2="105.6" y2="147.6" stroke="#008b8b" stroke-width="2.4" marker-end="url(#arrow-teal)"/>
+  <line x1="108.8" y1="172.8" x2="62.5" y2="225.7" stroke="#008b8b" stroke-width="2.4" marker-end="url(#arrow-teal)"/>
+  <line x1="134.3" y1="150.8" x2="189.0" y2="115.3" stroke="#008b8b" stroke-width="2.4" marker-end="url(#arrow-teal)"/>
+  <line x1="130.1" y1="173.7" x2="198.7" y2="266.7" stroke="#008b8b" stroke-width="2.4" marker-end="url(#arrow-teal)"/>
+  <line x1="218.1" y1="94.1" x2="250.4" y2="67.2" stroke="#d3d3d3" stroke-width="2.4" marker-end="url(#arrow-grey)"/>
+  <line x1="217.7" y1="116.3" x2="257.8" y2="152.3" stroke="#d3d3d3" stroke-width="2.4" marker-end="url(#arrow-grey)"/>
+  <line x1="59.4" y1="254.1" x2="89.5" y2="299.2" stroke="#d3d3d3" stroke-width="2.4" marker-end="url(#arrow-grey)"/>
+  <circle cx="45" cy="95" r="16" fill="#667e2c"/>
+  <circle cx="120" cy="160" r="16" fill="#008b8b"/>
+  <circle cx="50" cy="240" r="16" fill="#008b8b"/>
+  <circle cx="205" cy="105" r="16" fill="#008b8b"/>
+  <circle cx="210" cy="282" r="16" fill="#fada5e"/>
+  <circle cx="265" cy="55" r="16" fill="#d3d3d3"/>
+  <circle cx="272" cy="165" r="16" fill="#d3d3d3"/>
+  <circle cx="100" cy="315" r="16" fill="#d3d3d3"/>
+  <circle cx="92" cy="372" r="11" fill="#008b8b"/>
+  <text x="112" y="379" font-size="21" fill="#444444">= document</text>
 
-  <!-- Cache boxes -->
-  <g stroke="#000000" stroke-width="1.2" fill="#fada5e" fill-opacity="0.6">
-    <rect x="45" y="85" width="210" height="100" rx="8"/>
-    <rect x="345" y="85" width="210" height="100" rx="8"/>
-    <rect x="645" y="85" width="210" height="100" rx="8"/>
-  </g>
-  <g font-size="15" fill="#555555">
-    <text x="55" y="103">cache: triple arrays</text>
-    <text x="355" y="103">cache: indexed store</text>
-    <text x="655" y="103">cache: indexed store</text>
-  </g>
+  <!-- Document cache: keyed by document URL -->
+  <rect x="335" y="60" width="250" height="262" rx="12" fill="none" stroke="#000000" stroke-width="1.2"/>
+  <path d="M335,106 V72 a12,12 0 0 1 12,-12 H573 a12,12 0 0 1 12,12 V106 z" fill="#000000" fill-opacity="0.12"/>
+  <line x1="335" y1="106" x2="585" y2="106" stroke="#000000" stroke-width="1.2"/>
+  <text x="460.0" y="92" font-size="24" text-anchor="middle">Document cache</text>
+  <circle cx="362" cy="150" r="9" fill="#008b8b"/>
+  <text x="381" y="156" font-family="Fira Mono" font-size="19">/alice/profile</text>
+  <circle cx="362" cy="194" r="9" fill="#008b8b"/>
+  <text x="381" y="200" font-family="Fira Mono" font-size="19">/alice/posts/3</text>
+  <circle cx="362" cy="238" r="9" fill="#008b8b"/>
+  <text x="381" y="244" font-family="Fira Mono" font-size="19">/bob/profile</text>
+  <rect x="343" y="263" width="234" height="38" rx="6" fill="#fada5e" fill-opacity="0.4" stroke="#000000" stroke-width="1.2"/>
+  <circle cx="362" cy="282" r="9" fill="#fada5e" stroke="#000000" stroke-width="1"/>
+  <text x="381" y="288" font-family="Fira Mono" font-size="19">/bob/posts/7</text>
+  <path d="M228,282 H337" fill="none" stroke="#000000" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="282.5" y="270" font-size="20" fill="#444444" text-anchor="middle">lookup</text>
 
-  <!-- Unindexed: one array of raw triples per document -->
-  <g font-family="Fira Mono" font-size="16" fill="#555555">
-    <text x="58" y="129">[</text>
-    <text x="232" y="129">]</text>
-    <text x="58" y="151">[</text>
-    <text x="232" y="151">]</text>
-    <text x="58" y="173">[</text>
-    <text x="232" y="173">]</text>
+  <!-- Two ways of storing each cached document -->
+  <rect x="630" y="15" width="360" height="150" rx="12" fill="none" stroke="#000000" stroke-width="1.2"/>
+  <path d="M630,61 V27 a12,12 0 0 1 12,-12 H978 a12,12 0 0 1 12,12 V61 z" fill="#000000" fill-opacity="0.12"/>
+  <line x1="630" y1="61" x2="990" y2="61" stroke="#000000" stroke-width="1.2"/>
+  <text x="810.0" y="47" font-size="24" text-anchor="middle">Unindexed</text>
+  <rect x="630" y="185" width="360" height="212" rx="12" fill="none" stroke="#000000" stroke-width="1.2"/>
+  <path d="M630,231 V197 a12,12 0 0 1 12,-12 H978 a12,12 0 0 1 12,12 V231 z" fill="#000000" fill-opacity="0.12"/>
+  <line x1="630" y1="231" x2="990" y2="231" stroke="#000000" stroke-width="1.2"/>
+  <text x="810.0" y="217" font-size="24" text-anchor="middle">Indexed</text>
+  <g fill="none" stroke="#000000" stroke-width="1.8">
+    <path d="M585,282 H607"/>
+    <path d="M607,282 V122 H628" marker-end="url(#arrow)"/>
+    <path d="M607,282 V296 H628" marker-end="url(#arrow)"/>
   </g>
-  <use href="#triple-raw" x="72" y="119"/>
-  <use href="#triple-raw" x="104" y="119"/>
-  <use href="#triple-raw" x="136" y="119"/>
-  <use href="#triple-raw" x="168" y="119"/>
-  <use href="#triple-raw" x="200" y="119"/>
-  <use href="#triple-raw" x="72" y="141"/>
-  <use href="#triple-raw" x="104" y="141"/>
-  <use href="#triple-raw" x="136" y="141"/>
-  <use href="#triple-raw" x="72" y="163"/>
-  <use href="#triple-raw" x="104" y="163"/>
-  <use href="#triple-raw" x="136" y="163"/>
-  <use href="#triple-raw" x="168" y="163"/>
-
-  <!-- Indexed and estimation: a proper indexed store -->
-  <use href="#index-store" x="365" y="122"/>
-  <use href="#index-store" x="665" y="122"/>
-
-  <!-- On a cache hit -->
-  <g stroke="#000000" stroke-width="1.5" marker-end="url(#arrow)">
-    <line x1="150" y1="188" x2="150" y2="222"/>
-    <line x1="450" y1="188" x2="450" y2="222"/>
-    <line x1="750" y1="188" x2="750" y2="222"/>
+  <g font-family="Fira Mono" font-size="18" fill="#444444">
+    <text x="642" y="117">[</text><text x="774" y="117">]</text>
+    <text x="642" y="139">[</text><text x="774" y="139">]</text>
   </g>
-  <g font-size="15" fill="#555555">
-    <text x="160" y="210">index all</text>
-    <text x="460" y="210">only matches</text>
-    <text x="760" y="210">cardinalities</text>
-  </g>
-
-  <!-- Local stores of the running query -->
-  <g stroke="#000000" stroke-width="1.2" fill="#008b8f" fill-opacity="0.25">
-    <rect x="45" y="225" width="210" height="70" rx="8"/>
-    <rect x="345" y="225" width="210" height="70" rx="8"/>
-  </g>
-  <g font-size="15" fill="#555555">
-    <text x="55" y="243">local store</text>
-    <text x="355" y="243">local store</text>
-  </g>
-  <use href="#triple-raw" x="60" y="256"/>
-  <use href="#triple-raw" x="92" y="256"/>
-  <use href="#triple-raw" x="124" y="256"/>
-  <use href="#triple-raw" x="156" y="256"/>
-  <use href="#triple-raw" x="188" y="256"/>
-  <use href="#triple-raw" x="220" y="256"/>
-  <use href="#triple-raw" x="60" y="274"/>
-  <use href="#triple-raw" x="92" y="274"/>
-  <use href="#triple-raw" x="124" y="274"/>
-  <use href="#triple-raw" x="156" y="274"/>
-  <use href="#triple-raw" x="188" y="274"/>
-  <use href="#triple-raw" x="220" y="274"/>
-  <use href="#triple-match" x="360" y="256"/>
-  <use href="#triple-match" x="392" y="256"/>
-
-  <!-- Estimation feeds the optimizer instead -->
-  <rect x="645" y="225" width="210" height="70" rx="8" fill="#000000" fill-opacity="0.12" stroke="#000000" stroke-width="1.2"/>
-  <text x="750" y="253" font-size="17" text-anchor="middle">cost-based</text>
-  <text x="750" y="275" font-size="17" text-anchor="middle">query plan</text>
+  <use xlink:href="#triple-raw" x="656" y="107"/>
+  <use xlink:href="#triple-raw" x="686" y="107"/>
+  <use xlink:href="#triple-raw" x="716" y="107"/>
+  <use xlink:href="#triple-raw" x="746" y="107"/>
+  <use xlink:href="#triple-raw" x="656" y="129"/>
+  <use xlink:href="#triple-raw" x="686" y="129"/>
+  <use xlink:href="#triple-raw" x="716" y="129"/>
+  <line x1="790" y1="122" x2="826" y2="122" stroke="#000000" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <rect x="830" y="86" width="148" height="72" rx="8" fill="#008b8f" fill-opacity="0.25" stroke="#000000" stroke-width="1.2"/>
+  <text x="840" y="108" font-size="17" fill="#444444">local store</text>
+  <use xlink:href="#triple-raw" x="842" y="121"/>
+  <use xlink:href="#triple-raw" x="875" y="121"/>
+  <use xlink:href="#triple-raw" x="908" y="121"/>
+  <use xlink:href="#triple-raw" x="941" y="121"/>
+  <use xlink:href="#triple-raw" x="842" y="137"/>
+  <use xlink:href="#triple-raw" x="875" y="137"/>
+  <use xlink:href="#triple-raw" x="908" y="137"/>
+  <use xlink:href="#triple-raw" x="941" y="137"/>
+  <use xlink:href="#index-store" x="642" y="265"/>
+  <line x1="790" y1="296" x2="826" y2="296" stroke="#000000" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <rect x="830" y="260" width="148" height="72" rx="8" fill="#008b8f" fill-opacity="0.25" stroke="#000000" stroke-width="1.2"/>
+  <text x="840" y="282" font-size="17" fill="#444444">local store</text>
+  <use xlink:href="#triple-match" x="842" y="295"/>
+  <use xlink:href="#triple-match" x="875" y="295"/>
+  <path d="M714,323 V345" fill="none" stroke="#000000" stroke-width="1.8" stroke-dasharray="6 4" marker-end="url(#arrow)"/>
+  <rect x="642" y="347" width="336" height="38" rx="8" fill="#000000" fill-opacity="0.12" stroke="#000000" stroke-width="1.2" stroke-dasharray="6 4"/>
+  <text x="810.0" y="373" font-size="21" text-anchor="middle">+ cardinality estimation</text>
 </svg>
