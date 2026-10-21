@@ -2,7 +2,11 @@
 % \documentclass{beamer}
 
 \usetheme{metropolis}
-\usepackage[T1]{fontenc}
+% Only for pdfLaTeX: under LuaLaTeX, T1 would override the Fira Sans set by metropolis
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+\fi
 \usepackage{microtype}
 \usepackage{booktabs}
 \usepackage{float}
@@ -61,6 +65,7 @@
 
 \input{supplemental/hyperparameter.tex}
 \input{supplemental/simulation-details.tex}
+\input{supplemental/results-details.tex}
 
 % NOTES:
 % Supplemental slides:

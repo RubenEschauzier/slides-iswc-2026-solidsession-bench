@@ -2369,8 +2369,7 @@
     <bcf:citekey order="4" intorder="2">mitzlaff2013user</bcf:citekey>
     <bcf:citekey order="5" intorder="1">bonifati2020analytical</bcf:citekey>
     <bcf:citekey order="5" intorder="2">arenas2025exploring</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">dolan2002benchmarking</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">meiss_whats_2009</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">meiss_whats_2009</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

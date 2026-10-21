@@ -1,0 +1,22 @@
+{
+    // Same as the user-level latexmk tool, but with LuaLaTeX so metropolis can use Fira Sans
+    "latex-workshop.latex.tools": [
+        {
+            "name": "latexmk",
+            "command": "latexmk",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-lualatex",
+                "-outdir=%OUTDIR%",
+                "-bibtex-cond1",
+                "-shell-escape",
+                "%DOC%"
+            ],
+            "env": {
+                "BIBINPUTS": ".:..:"
+            }
+        }
+    ]
+}

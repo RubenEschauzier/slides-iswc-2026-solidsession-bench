@@ -135,42 +135,6 @@
       \field{pages}{655\bibrangedash 679}
       \range{pages}{25}
     \endentry
-    \entry{dolan2002benchmarking}{article}{}
-      \name{author}{2}{}{%
-        {{hash=aae907590cbbab65e83b9ffbb205fce7}{%
-           family={Dolan},
-           familyi={D\bibinitperiod},
-           given={Elizabeth\bibnamedelima D},
-           giveni={E\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=a9a66b314c9ad619a4bdf7ae4261f894}{%
-           family={Moré},
-           familyi={M\bibinitperiod},
-           given={Jorge\bibnamedelima J},
-           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{8a9cfc0a37b6fbc1c38c5c6a9feb7a5e}
-      \strng{fullhash}{8a9cfc0a37b6fbc1c38c5c6a9feb7a5e}
-      \strng{bibnamehash}{8a9cfc0a37b6fbc1c38c5c6a9feb7a5e}
-      \strng{authorbibnamehash}{8a9cfc0a37b6fbc1c38c5c6a9feb7a5e}
-      \strng{authornamehash}{8a9cfc0a37b6fbc1c38c5c6a9feb7a5e}
-      \strng{authorfullhash}{8a9cfc0a37b6fbc1c38c5c6a9feb7a5e}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Mathematical programming}
-      \field{number}{2}
-      \field{title}{Benchmarking optimization software with performance profiles}
-      \field{volume}{91}
-      \field{year}{2002}
-      \field{pages}{201\bibrangedash 213}
-      \range{pages}{13}
-    \endentry
     \entry{hartig2011caching}{inproceedings}{}
       \name{author}{1}{}{%
         {{hash=2076c60fe17dc3769696535197077f9a}{%

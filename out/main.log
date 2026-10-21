@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2026.2.5)  6 OCT 2026 14:24
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2026.2.5)  21 OCT 2026 10:59
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -978,17 +978,7 @@ Space,BoldFont={Fira
 (fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
 
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for T1+FiraSansLight(0) on 
-input line 112.
-LaTeX Font Info:    No file T1FiraSansLight(0).fd. on input line 112.
-
-
-LaTeX Font Warning: Font shape `T1/FiraSansLight(0)/m/n' undefined
-(Font)              using `T1/cmr/m/n' instead on input line 112.
-
-) (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2023/03/13 v3.1a Micro-typographical refinements (RS)
 \MT@toks=\toks51
 \MT@tempbox=\box82
@@ -1523,31 +1513,31 @@ Package csquotes Info: ... none found.
  (./out/main.aux)
 \openout1 = main.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
-8.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 4
+2.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -1605,66 +1595,66 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 38.
+Package hyperref Info: Link coloring OFF on input line 42.
 
 (./out/main.out) (./out/main.out)
 \@outlinefile=\write6
 
 \openout6 = main.out
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 38.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 42.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 38.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 42.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/lmr/m/n on input line 38.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 38.
+(Font)                  OT1/cmss/m/n --> TU/lmr/m/n on input line 42.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 42.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T1/FiraSansLight(0)/b/n on input line 
-38.
+(Font)                  OT1/cmr/bx/n --> TU/FiraSansLight(0)/b/n on input line 
+42.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/FiraSansLight(0)/b/n on input line 
-38.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 38.
+(Font)                  OT1/cmr/bx/n --> TU/FiraSansLight(0)/b/n on input line 
+42.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 42.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/FiraSansLight(0)/m/n on input line 
-38.
+(Font)                  OT1/cmss/m/n --> TU/FiraSansLight(0)/m/n on input line 
+42.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/FiraSansLight(0)/m/n on input line
- 38.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 38.
+(Font)                  OT1/cmss/bx/n --> TU/FiraSansLight(0)/m/n on input line
+ 42.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 42.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T1/FiraSansLight(0)/m/it on input line
- 38.
+(Font)                  OT1/cmr/m/it --> TU/FiraSansLight(0)/m/it on input line
+ 42.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T1/FiraSansLight(0)/m/it on input lin
-e 38.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 38.
+(Font)                  OT1/cmr/bx/it --> TU/FiraSansLight(0)/m/it on input lin
+e 42.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 42.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T1/FiraMono(0)/m/n on input line 38.
+(Font)                  OT1/cmtt/m/n --> TU/FiraMono(0)/m/n on input line 42.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T1/FiraMono(0)/m/n on input line 38.
+(Font)                  OT1/cmtt/m/n --> TU/FiraMono(0)/m/n on input line 42.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/FiraSansLight(0)/m/n --> T1/FiraSansLight(0)/b/n on 
-input line 38.
+(Font)                  TU/FiraSansLight(0)/m/n --> TU/FiraSansLight(0)/b/n on 
+input line 42.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/FiraSansLight(0)/m/it --> T1/FiraSansLight(0)/b/it o
-n input line 38.
+(Font)                  TU/FiraSansLight(0)/m/it --> TU/FiraSansLight(0)/b/it o
+n input line 42.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> T1/lmr/b/n on input line 38.
+(Font)                  OT1/cmss/b/n --> TU/lmr/b/n on input line 42.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/FiraSansLight(0)/b/n --> T1/FiraSansLight(0)/b/n on 
-input line 38.
+(Font)                  TU/FiraSansLight(0)/b/n --> TU/FiraSansLight(0)/b/n on 
+input line 42.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/FiraSansLight(0)/m/n --> T1/FiraSansLight(0)/b/n on 
-input line 38.
+(Font)                  TU/FiraSansLight(0)/m/n --> TU/FiraSansLight(0)/b/n on 
+input line 42.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/FiraSansLight(0)/m/it --> T1/FiraSansLight(0)/b/it o
-n input line 38.
+(Font)                  TU/FiraSansLight(0)/m/it --> TU/FiraSansLight(0)/b/it o
+n input line 42.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/FiraMono(0)/m/n --> T1/FiraMono(0)/b/n on input line
- 38.
+(Font)                  TU/FiraMono(0)/m/n --> TU/FiraMono(0)/b/n on input line
+ 42.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -1690,24 +1680,24 @@ Dictionary: translator-numbers-dictionary, Language: English
 ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \microtypecontext on input line 38.
-Package microtype Info: Applying patch `item' on input line 38.
-Package microtype Info: Applying patch `toc' on input line 38.
-Package microtype Info: Applying patch `eqnum' on input line 38.
-Package microtype Info: Applying patch `footnote' on input line 38.
-Package microtype Info: Applying patch `verbatim' on input line 38.
+LaTeX Info: Redefining \microtypecontext on input line 42.
+Package microtype Info: Applying patch `item' on input line 42.
+Package microtype Info: Applying patch `toc' on input line 42.
+Package microtype Info: Applying patch `eqnum' on input line 42.
+Package microtype Info: Applying patch `footnote' on input line 42.
+Package microtype Info: Applying patch `verbatim' on input line 42.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 38.
+LaTeX Info: Redefining \showhyphens on input line 42.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of spacing.
 Package microtype Info: No adjustment of kerning.
 Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `FiraSansLight' (encoding: T1).
+(microtype)             `FiraSansLight' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
@@ -1733,23 +1723,17 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
 (./out/main.bbl)
-Package biblatex Info: Reference section=0 on input line 38.
-Package biblatex Info: Reference segment=0 on input line 38.
+Package biblatex Info: Reference section=0 on input line 42.
+Package biblatex Info: Reference segment=0 on input line 42.
  (./out/main.nav)
-
-LaTeX Font Warning: Font shape `T1/FiraSansLight(0)/b/n' undefined
-(Font)              using `T1/FiraSansLight(0)/m/n' instead on input line 40.
-
-
-Overfull \vbox (15.63992pt too high) detected at line 40
+Overfull \vbox (15.63992pt too high) detected at line 44
  []
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-Missing character: There is no – (U+2013) in font ecrm0800!
-] (./introduction/introduction_problem.tex
-<images/current-bad-message-situation.pdf, id=22, 555.42151pt x 579.9056pt>
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+(./introduction/introduction_problem.tex
+<images/current-bad-message-situation.pdf, id=21, 555.42151pt x 579.9056pt>
 File: images/current-bad-message-situation.pdf Graphic file (type pdf)
 <use images/current-bad-message-situation.pdf>
 Package luatex.def Info: images/current-bad-message-situation.pdf  used on inpu
@@ -1777,56 +1761,35 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-
-LaTeX Font Warning: Font shape `T1/FiraSansLight(0)/m/it' undefined
-(Font)              using `T1/FiraSansLight(0)/m/n' instead on input line 44.
-
-LaTeX Font Info:    Trying to load font information for TS1+FiraSansLight(0) on
- input line 44.
-LaTeX Font Info:    No file TS1FiraSansLight(0).fd. on input line 44.
-
-LaTeX Font Warning: Font shape `TS1/FiraSansLight(0)/m/n' undefined
-(Font)              using `TS1/cmr/m/n' instead
-(Font)              for symbol `textbullet' on input line 44.
-
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
-(RS)
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `FiraSansLight' (encoding: TS1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
-Overfull \vbox (11.1781pt too high) detected at line 44
+Overfull \vbox (15.24423pt too high) detected at line 44
  []
 
 [2
 
 <./images/current-bad-message-situation.pdf>]
-<images/decentralized-message-storage.pdf, id=45, 575.4965pt x 570.47774pt>
+<images/decentralized-message-storage.pdf, id=41, 575.4965pt x 570.47774pt>
 File: images/decentralized-message-storage.pdf Graphic file (type pdf)
 <use images/decentralized-message-storage.pdf>
 Package luatex.def Info: images/decentralized-message-storage.pdf  used on inpu
 t line 62.
 (luatex.def)             Requested size: 215.10356pt x 213.22353pt.
 
-Overfull \vbox (22.21751pt too high) detected at line 62
+Overfull \vbox (25.3582pt too high) detected at line 62
  []
 
 [3
 
 <./images/decentralized-message-storage.pdf>]
-<images/how-to-find-sources.pdf, id=69, 510.58803pt x 645.75899pt>
+<images/how-to-find-sources.pdf, id=65, 510.58803pt x 645.75899pt>
 File: images/how-to-find-sources.pdf Graphic file (type pdf)
 <use images/how-to-find-sources.pdf>
-Package luatex.def Info: images/how-to-find-sources.pdf  used on input line 79.
+Package luatex.def Info: images/how-to-find-sources.pdf  used on input line 80.
 
 (luatex.def)             Requested size: 143.4048pt x 181.36307pt.
  [4
 
 <./images/how-to-find-sources.pdf>]) (./introduction/introduction_ltqp.tex
-<images/showing-link-traversal-step-0.pdf, id=81, 605.50919pt x 398.22562pt>
+<images/showing-link-traversal-step-0.pdf, id=77, 605.50919pt x 398.22562pt>
 File: images/showing-link-traversal-step-0.pdf Graphic file (type pdf)
 <use images/showing-link-traversal-step-0.pdf>
 Package luatex.def Info: images/showing-link-traversal-step-0.pdf  used on inpu
@@ -1835,7 +1798,7 @@ t line 31.
  [5
 
 <./images/showing-link-traversal-step-0.pdf>]
-<images/showing-link-traversal-step-1.pdf, id=87, 605.50919pt x 398.22562pt>
+<images/showing-link-traversal-step-1.pdf, id=83, 605.50919pt x 398.22562pt>
 File: images/showing-link-traversal-step-1.pdf Graphic file (type pdf)
 <use images/showing-link-traversal-step-1.pdf>
 Package luatex.def Info: images/showing-link-traversal-step-1.pdf  used on inpu
@@ -1844,7 +1807,7 @@ t line 49.
  [6
 
 <./images/showing-link-traversal-step-1.pdf>]
-<images/showing-link-traversal-step-2.pdf, id=93, 605.50919pt x 398.22562pt>
+<images/showing-link-traversal-step-2.pdf, id=89, 605.50919pt x 398.22562pt>
 File: images/showing-link-traversal-step-2.pdf Graphic file (type pdf)
 <use images/showing-link-traversal-step-2.pdf>
 Package luatex.def Info: images/showing-link-traversal-step-2.pdf  used on inpu
@@ -1853,7 +1816,7 @@ t line 66.
  [7
 
 <./images/showing-link-traversal-step-2.pdf>]
-<images/showing-link-traversal-step-3.pdf, id=99, 605.50919pt x 398.22562pt>
+<images/showing-link-traversal-step-3.pdf, id=95, 605.50919pt x 398.22562pt>
 File: images/showing-link-traversal-step-3.pdf Graphic file (type pdf)
 <use images/showing-link-traversal-step-3.pdf>
 Package luatex.def Info: images/showing-link-traversal-step-3.pdf  used on inpu
@@ -1863,19 +1826,19 @@ t line 85.
 
 <./images/showing-link-traversal-step-3.pdf>]) (./introduction/introduction_opt
 imization.tex
-<images/hardToOptimizeLTQP.pdf, id=105, 333.6929pt x 486.79428pt>
+<images/hardToOptimizeLTQP.pdf, id=101, 333.6929pt x 486.79428pt>
 File: images/hardToOptimizeLTQP.pdf Graphic file (type pdf)
 <use images/hardToOptimizeLTQP.pdf>
 Package luatex.def Info: images/hardToOptimizeLTQP.pdf  used on input line 24.
 (luatex.def)             Requested size: 143.4048pt x 209.19861pt.
 
-Overfull \vbox (18.1926pt too high) detected at line 24
+Overfull \vbox (21.42128pt too high) detected at line 24
  []
 
 [9
 
 <./images/hardToOptimizeLTQP.pdf>]
-<images/client-side-engine.pdf, id=117, 376.40625pt x 278.54062pt>
+<images/client-side-engine.pdf, id=113, 376.40625pt x 278.54062pt>
 File: images/client-side-engine.pdf Graphic file (type pdf)
 <use images/client-side-engine.pdf>
 Package luatex.def Info: images/client-side-engine.pdf  used on input line 42.
@@ -1886,7 +1849,7 @@ Package luatex.def Info: images/client-side-engine.pdf  used on input line 42.
 (./problem-statement/problem-statement.tex [11
 
 ]) (./literature/literature.tex
-<images/caching-sequence.pdf, id=129, 368.87813pt x 263.48438pt>
+<images/caching-sequence.pdf, id=125, 368.87813pt x 263.48438pt>
 File: images/caching-sequence.pdf Graphic file (type pdf)
 <use images/caching-sequence.pdf>
 Package luatex.def Info: images/caching-sequence.pdf  used on input line 19.
@@ -1895,11 +1858,11 @@ Package luatex.def Info: images/caching-sequence.pdf  used on input line 19.
 [12
 
 <./images/caching-sequence.pdf>]
-<images/evaluation-approaches.pdf, id=139, 376.40625pt x 278.54062pt>
+<images/evaluation-approaches.pdf, id=135, 376.40625pt x 278.54062pt>
 File: images/evaluation-approaches.pdf Graphic file (type pdf)
 <use images/evaluation-approaches.pdf>
 Package luatex.def Info: images/evaluation-approaches.pdf  used on input line 3
-5.
+6.
 (luatex.def)             Requested size: 239.00558pt x 176.86707pt.
  [13
 
@@ -1910,40 +1873,31 @@ Package luatex.def Info: images/evaluation-approaches.pdf  used on input line 3
 
 ])
 (./simulation-methodology/simulation-methodology.tex
-<images/solidbench-extensions.pdf, id=168, 677.53125pt x 271.0125pt>
-File: images/solidbench-extensions.pdf Graphic file (type pdf)
-<use images/solidbench-extensions.pdf>
-Package luatex.def Info: images/solidbench-extensions.pdf  used on input line 8
-.
-(luatex.def)             Requested size: 398.3386pt x 159.34184pt.
- [16
-
-<./images/solidbench-extensions.pdf>]
-<images/sequence-overview.pdf, id=174, 519.44063pt x 150.5625pt>
+<images/sequence-overview.pdf, id=154, 519.44063pt x 150.5625pt>
 File: images/sequence-overview.pdf Graphic file (type pdf)
 <use images/sequence-overview.pdf>
 Package luatex.def Info: images/sequence-overview.pdf  used on input line 21.
 (luatex.def)             Requested size: 338.59023pt x 98.14014pt.
- [17
+ [16
 
 <./images/sequence-overview.pdf>]
-<images/logical-sessions.pdf, id=181, 474.27188pt x 218.31563pt>
+<images/logical-sessions.pdf, id=160, 474.27188pt x 218.31563pt>
 File: images/logical-sessions.pdf Graphic file (type pdf)
 <use images/logical-sessions.pdf>
 Package luatex.def Info: images/logical-sessions.pdf  used on input line 46.
 (luatex.def)             Requested size: 199.1693pt x 91.68193pt.
- [18
+ [17
 
 <./images/logical-sessions.pdf>]
-<images/user-interests.pdf, id=191, 376.40625pt x 278.54062pt>
+<images/user-interests.pdf, id=170, 376.40625pt x 278.54062pt>
 File: images/user-interests.pdf Graphic file (type pdf)
 <use images/user-interests.pdf>
 Package luatex.def Info: images/user-interests.pdf  used on input line 70.
 (luatex.def)             Requested size: 199.1693pt x 147.3878pt.
- [19
+ [18
 
 <./images/user-interests.pdf>]
-<images/query-refinement-wide.pdf, id=202, 752.8125pt x 165.61874pt>
+<images/query-refinement-wide.pdf, id=182, 752.8125pt x 165.61874pt>
 File: images/query-refinement-wide.pdf Graphic file (type pdf)
 <use images/query-refinement-wide.pdf>
 Package luatex.def Info: images/query-refinement-wide.pdf  used on input line 9
@@ -1953,97 +1907,105 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `FiraMono' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [20
 
-<./images/query-refinement-wide.pdf>]) (./caching/caching.tex [21
+Overfull \vbox (13.21942pt too high) detected at line 97
+ []
+
+[19
+
+<./images/query-refinement-wide.pdf>]) (./caching/caching.tex [20
 
 ]
-<images/cache-approaches.pdf, id=222, 677.53125pt x 255.95625pt>
+<images/cache-approaches.pdf, id=199, 752.8125pt x 304.88907pt>
 File: images/cache-approaches.pdf Graphic file (type pdf)
 <use images/cache-approaches.pdf>
 Package luatex.def Info: images/cache-approaches.pdf  used on input line 21.
-(luatex.def)             Requested size: 398.3386pt x 150.48952pt.
- [22
+(luatex.def)             Requested size: 398.3386pt x 161.32991pt.
 
-<./images/cache-approaches.pdf>] [23
+Overfull \vbox (13.99777pt too high) detected at line 21
+ []
 
-])
-(./results/results.tex
-<images/performance_profile.pdf, id=236, 1264.82928pt x 873.91309pt>
-File: images/performance_profile.pdf Graphic file (type pdf)
-<use images/performance_profile.pdf>
-Package luatex.def Info: images/performance_profile.pdf  used on input line 16.
+[21
 
-(luatex.def)             Requested size: 350.5399pt x 132.87381pt.
+<./images/cache-approaches.pdf>] [22
+
+]) (./results/results.tex
+<images/speedup_violins.pdf, id=211, 396.24348pt x 157.12828pt>
+File: images/speedup_violins.pdf Graphic file (type pdf)
+<use images/speedup_violins.pdf>
+Package luatex.def Info: images/speedup_violins.pdf  used on input line 19.
+(luatex.def)             Requested size: 398.3386pt x 157.96703pt.
+
+Overfull \vbox (2.37817pt too high) detected at line 19
+ []
+
+[23
+
+<./images/speedup_violins.pdf>]
+<images/answered_queries.pdf, id=258, 396.86255pt x 146.6071pt>
+File: images/answered_queries.pdf Graphic file (type pdf)
+<use images/answered_queries.pdf>
+Package luatex.def Info: images/answered_queries.pdf  used on input line 31.
+(luatex.def)             Requested size: 398.3386pt x 147.15704pt.
  [24
 
-<./images/performance_profile.pdf>]
-<images/session-hit-rates.pdf, id=285, 451.6875pt x 308.65312pt>
+<./images/answered_queries.pdf>]
+<images/session-hit-rates.pdf, id=306, 451.6875pt x 269.50688pt>
 File: images/session-hit-rates.pdf Graphic file (type pdf)
 <use images/session-hit-rates.pdf>
-Package luatex.def Info: images/session-hit-rates.pdf  used on input line 32.
-(luatex.def)             Requested size: 219.08743pt x 149.71071pt.
+Package luatex.def Info: images/session-hit-rates.pdf  used on input line 47.
+(luatex.def)             Requested size: 219.08743pt x 130.723pt.
  [25
 
 <./images/session-hit-rates.pdf>]
-<images/combined_cache_efficiency.pdf, id=291, 1057.3101pt x 394.04755pt>
-File: images/combined_cache_efficiency.pdf Graphic file (type pdf)
-<use images/combined_cache_efficiency.pdf>
-Package luatex.def Info: images/combined_cache_efficiency.pdf  used on input li
-ne 40.
-(luatex.def)             Requested size: 398.3386pt x 148.45892pt.
+<images/refinement_hits_evictions.pdf, id=312, 413.14302pt x 165.91963pt>
+File: images/refinement_hits_evictions.pdf Graphic file (type pdf)
+<use images/refinement_hits_evictions.pdf>
+Package luatex.def Info: images/refinement_hits_evictions.pdf  used on input li
+ne 55.
+(luatex.def)             Requested size: 398.3386pt x 159.97977pt.
  [26
 
-<./images/combined_cache_efficiency.pdf>]
-<images/temporal_throughput_line.pdf, id=315, 1057.3101pt x 394.04755pt>
-File: images/temporal_throughput_line.pdf Graphic file (type pdf)
-<use images/temporal_throughput_line.pdf>
-Package luatex.def Info: images/temporal_throughput_line.pdf  used on input lin
-e 48.
-(luatex.def)             Requested size: 398.3386pt x 148.45892pt.
- [27
+<./images/refinement_hits_evictions.pdf>]
+<images/random_vs_solidsessionbench.pdf, id=369, 397.01952pt x 158.47958pt>
+File: images/random_vs_solidsessionbench.pdf Graphic file (type pdf)
+<use images/random_vs_solidsessionbench.pdf>
+Package luatex.def Info: images/random_vs_solidsessionbench.pdf  used on input 
+line 67.
+(luatex.def)             Requested size: 398.3386pt x 159.01118pt.
 
-<./images/temporal_throughput_line.pdf>]
-<images/performance_profile_random_sequences.pdf, id=348, 1264.82928pt x 479.31
-888pt>
-File: images/performance_profile_random_sequences.pdf Graphic file (type pdf)
-<use images/performance_profile_random_sequences.pdf>
-Package luatex.def Info: images/performance_profile_random_sequences.pdf  used 
-on input line 74.
-(luatex.def)             Requested size: 143.40213pt x 124.71129pt.
-File: images/performance_profile.pdf Graphic file (type pdf)
-<use images/performance_profile.pdf>
-Package luatex.def Info: images/performance_profile.pdf  used on input line 74.
+Overfull \vbox (3.51033pt too high) detected at line 67
+ []
 
-(luatex.def)             Requested size: 161.32663pt x 125.51701pt.
-<images/legend-unindexed.pdf, id=351, 647.41875pt x 27.10126pt>
-File: images/legend-unindexed.pdf Graphic file (type pdf)
-<use images/legend-unindexed.pdf>
-Package luatex.def Info: images/legend-unindexed.pdf  used on input line 74.
-(luatex.def)             Requested size: 278.83578pt x 11.67232pt.
+[27
+
+<./images/random_vs_solidsessionbench.pdf>]
+<images/synth_hit_rate_slide.pdf, id=420, 413.13974pt x 169.53313pt>
+File: images/synth_hit_rate_slide.pdf Graphic file (type pdf)
+<use images/synth_hit_rate_slide.pdf>
+Package luatex.def Info: images/synth_hit_rate_slide.pdf  used on input line 75
+.
+(luatex.def)             Requested size: 398.3386pt x 163.46391pt.
  [28
 
-<./images/performance_profile_random_sequences.pdf><./images/legend-unindexed.pd
-f>]
-<images/synth_hit_rate_reduced.pdf, id=385, 766.84312pt x 453.27432pt>
-File: images/synth_hit_rate_reduced.pdf Graphic file (type pdf)
-<use images/synth_hit_rate_reduced.pdf>
-Package luatex.def Info: images/synth_hit_rate_reduced.pdf  used on input line 
-91.
-(luatex.def)             Requested size: 239.00558pt x 141.27438pt.
- [29
+<./images/synth_hit_rate_slide.pdf>] [29
 
-<./images/synth_hit_rate_reduced.pdf>] [30
+]
+<images/qr-solidsessionbench.png, id=497, 592.2125pt x 592.2125pt>
+File: images/qr-solidsessionbench.png Graphic file (type png)
+<use images/qr-solidsessionbench.png>
+Package luatex.def Info: images/qr-solidsessionbench.png  used on input line 11
+5.
+(luatex.def)             Requested size: 143.39871pt x 143.399pt.
+ [30
 
-]) [31
+<./images/qr-solidsessionbench.png>]) [31
 
 </usr/share/texlive/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>] [32
 
 
-] [33
-
-
-] (./supplemental/hyperparameter.tex
+]
+(./supplemental/hyperparameter.tex
 
 Package fontspec Info: Font family 'FiraSansLight(1)' created for font 'Fira
 (fontspec)             Sans Light' with options
@@ -2079,49 +2041,63 @@ tlig;+tnum;"
 (fontspec)             <->"FiraSansItalic:mode=node;script=latn;language=dflt;+
 tlig;+tnum;+smcp;"
 
-LaTeX Font Info:    Trying to load font information for T1+FiraSansLight(1) on 
-input line 21.
-LaTeX Font Info:    No file T1FiraSansLight(1).fd. on input line 21.
-
-
-LaTeX Font Warning: Font shape `T1/FiraSansLight(1)/m/n' undefined
-(Font)              using `T1/cmr/m/n' instead on input line 21.
-
-
-LaTeX Font Warning: Font shape `T1/FiraSansLight(1)/b/n' undefined
-(Font)              using `T1/FiraSansLight(1)/m/n' instead on input line 21.
-
-[34
+ [33
 
 ]) (./supplemental/simulation-details.tex
-<images/click-through-instantiation.pdf, id=466, 376.40625pt x 271.0125pt>
+<images/click-through-instantiation.pdf, id=533, 376.40625pt x 271.0125pt>
 File: images/click-through-instantiation.pdf Graphic file (type pdf)
 <use images/click-through-instantiation.pdf>
 Package luatex.def Info: images/click-through-instantiation.pdf  used on input 
 line 17.
 (luatex.def)             Requested size: 239.00558pt x 172.08688pt.
- [35
+[34
 
 <./images/click-through-instantiation.pdf>]
 File: images/logical-sessions.pdf Graphic file (type pdf)
 <use images/logical-sessions.pdf>
 Package luatex.def Info: images/logical-sessions.pdf  used on input line 33.
 (luatex.def)             Requested size: 239.00558pt x 110.01698pt.
- [36
+ [35
 
 ]
-<images/interest-selection.pdf, id=479, 376.40625pt x 271.0125pt>
+<images/interest-selection.pdf, id=546, 376.40625pt x 271.0125pt>
 File: images/interest-selection.pdf Graphic file (type pdf)
 <use images/interest-selection.pdf>
 Package luatex.def Info: images/interest-selection.pdf  used on input line 52.
 (luatex.def)             Requested size: 219.08743pt x 157.74562pt.
- [37
+ [36
 
-<./images/interest-selection.pdf>] [38
+<./images/interest-selection.pdf>] [37
 
-] [39
+] [38
 
-])
+]) (./supplemental/results-details.tex
+<images/first_result_speedup_violins.pdf, id=566, 397.2766pt x 157.12828pt>
+File: images/first_result_speedup_violins.pdf Graphic file (type pdf)
+<use images/first_result_speedup_violins.pdf>
+Package luatex.def Info: images/first_result_speedup_violins.pdf  used on input
+ line 11.
+(luatex.def)             Requested size: 398.3386pt x 157.55704pt.
+
+Overfull \vbox (2.05618pt too high) detected at line 11
+ []
+
+[39
+
+<./images/first_result_speedup_violins.pdf>]
+<images/throughput_speedup_violins.pdf, id=617, 396.94724pt x 157.12828pt>
+File: images/throughput_speedup_violins.pdf Graphic file (type pdf)
+<use images/throughput_speedup_violins.pdf>
+Package luatex.def Info: images/throughput_speedup_violins.pdf  used on input l
+ine 23.
+(luatex.def)             Requested size: 398.3386pt x 157.68172pt.
+
+Overfull \vbox (2.24486pt too high) detected at line 23
+ []
+
+[40
+
+<./images/throughput_speedup_violins.pdf>])
 \tf@nav=\write7
 
 \openout7 = main.nav
@@ -2131,16 +2107,11 @@ Package luatex.def Info: images/interest-selection.pdf  used on input line 52.
 \tf@snm=\write9
 
 \openout9 = main.snm
-
-(./out/main.aux)
+ (./out/main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -2149,35 +2120,31 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 44778 strings out of 476553
+ 44607 strings out of 476553
  125031,1977958 words of node,token memory allocated
- 5816 words of node memory still in use:
-   41 hlist, 8 vlist, 5 rule, 36 disc, 7 local_par, 2 math, 130 glue, 46 kern, 2
-6 penalty, 2 margin_kern, 363 glyph, 119 attribute, 81 glue_spec, 119 attribute_
-list, 4 write, 38 pdf_colorstack nodes
-   avail lists: 1:2,2:1005,3:279,4:365,5:176,6:51,7:3937,8:31,9:297,10:15,11:253
-
- 65450 multiletter control sequences out of 65536+600000
- 99 fonts using 14125951 bytes
+ 3085 words of node memory still in use:
+   33 hlist, 8 vlist, 6 rule, 12 disc, 5 local_par, 65 glue, 29 kern, 13 penalty
+, 1 margin_kern, 151 glyph, 61 attribute, 81 glue_spec, 61 attribute_list, 4 wri
+te, 16 pdf_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore nodes
+   avail lists: 1:2,2:716,3:254,4:305,5:536,6:41,7:2776,8:31,9:307,10:15,11:159
+ 65287 multiletter control sequences out of 65536+600000
+ 111 fonts using 24244767 bytes
  128i,13n,133p,1870b,2496s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/t
-exmf-dist/fonts/opentype/public/fira/FiraMono-Regular.otf>{/usr/share/texmf/font
-s/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-mi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/te
-xmf/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf/fonts/type1/publi
-c/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0900.p
-fb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/
-fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm
--super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb>
-Output written on main.pdf (39 pages, 1705669 bytes).
+</usr/share/texlive/texmf-dist/fonts/opentype/public/fira/FiraMono-Regular.otf><
+/usr/share/texlive/texmf-dist/fonts/opentype/public/fira/FiraSans-LightItalic.ot
+f></usr/share/texlive/texmf-dist/fonts/opentype/public/fira/FiraSans-Light.otf><
+/usr/share/texlive/texmf-dist/fonts/opentype/public/fira/FiraSans-Regular.otf></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy8.pfb>
+Output written on main.pdf (40 pages, 1320510 bytes).
 
-PDF statistics: 561 PDF objects out of 1000 (max. 8388607)
- 350 compressed objects within 4 object streams
- 92 named destinations out of 1000 (max. 131072)
- 46 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 723 PDF objects out of 1000 (max. 8388607)
+ 328 compressed objects within 4 object streams
+ 88 named destinations out of 1000 (max. 131072)
+ 16 words of extra memory for PDF output out of 10000 (max. 100000000)
 
