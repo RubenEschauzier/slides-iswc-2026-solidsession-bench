@@ -1,6 +1,6 @@
-PWD /home/ruben-eschauzier/slides/slides-iswc-2026-solidsession-bench
+PWD /home/ruben-eschauzier/projects/slides/slides-iswc-2026-solidsessionbench
 INPUT /var/lib/texmf/web2c/luahbtex/lualatex.fmt
-INPUT /home/ruben-eschauzier/slides/slides-iswc-2026-solidsession-bench/main.tex
+INPUT /home/ruben-eschauzier/projects/slides/slides-iswc-2026-solidsessionbench/main.tex
 OUTPUT build/main.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/tex-ini-files/lualatexquotejobname.lua
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ltluatex.lua
@@ -411,14 +411,12 @@ INPUT ./images/answered_queries.pdf
 INPUT ./images/answered_queries.pdf
 INPUT ./images/session-hit-rates.pdf
 INPUT ./images/session-hit-rates.pdf
-INPUT ./images/combined_cache_efficiency.pdf
-INPUT ./images/combined_cache_efficiency.pdf
-INPUT ./images/temporal_throughput_line.pdf
-INPUT ./images/temporal_throughput_line.pdf
+INPUT ./images/refinement_hits_evictions.pdf
+INPUT ./images/refinement_hits_evictions.pdf
 INPUT ./images/random_vs_solidsessionbench.pdf
 INPUT ./images/random_vs_solidsessionbench.pdf
-INPUT ./images/synth_hit_rate_reduced.pdf
-INPUT ./images/synth_hit_rate_reduced.pdf
+INPUT ./images/synth_hit_rate_slide.pdf
+INPUT ./images/synth_hit_rate_slide.pdf
 INPUT ./images/qr-solidsessionbench.png
 INPUT ./images/qr-solidsessionbench.png
 INPUT ./supplemental/hyperparameter.tex

@@ -3,13 +3,13 @@
 %   - If sequences are realistic, cache hit rates should reflect sessions and refinement
 %   - Goal is benchmark validation, not an exhaustive cache comparison
 
-\begin{frame}{Validating the Benchmark: Client-side Caching}
-    \begin{itemize}\setlength\itemsep{1em}
-        \item Performance of caching documents relies on data locality between queries
-        \item Investigating cache performance reveals insights into our simulation
-        \item Goal: validate the benchmark, not an exhaustive cache comparison
-    \end{itemize}
-\end{frame}
+% \begin{frame}{Validating the Benchmark: Client-side Caching}
+%     \begin{itemize}\setlength\itemsep{1em}
+%         \item Performance of caching documents relies on data locality between queries
+%         \item Investigating cache performance reveals insights into our simulation
+%         \item Goal: validate the benchmark, not an exhaustive cache comparison
+%     \end{itemize}
+% \end{frame}
 
 \begin{frame}{Caching Approaches}
     \centering
@@ -20,21 +20,21 @@
     Implemented in Comunica, LRU eviction, three sizes: S (350k quads, $\sim$10\%), M (700k, $\sim$20\%), L (1.4M, $\sim$40\%)
 \end{frame}
 
-\begin{frame}{Experimental Setup}
-  \begin{block}{Workload}
-    \begin{itemize}
-        \item 8 generated sequences, 192 queries (discover and short templates)
-    \end{itemize}
-  \end{block}
-  \begin{block}{Execution}
-    \begin{itemize}
-        \item Each sequence repeated 10 times, 70--90 ms injected network latency, 180 s timeout
-        \item Cache scoped to a single sequence, no state shared between runs
-    \end{itemize}
-  \end{block}
-  \begin{block}{Measured}
-    \begin{itemize}
-        \item Cache hit rates, evictions, and speedup over no cache
-    \end{itemize}
-  \end{block}
-\end{frame}
+% \begin{frame}{Experimental Setup}
+%   \begin{block}{Workload}
+%     \begin{itemize}
+%         \item 8 generated sequences, 192 queries (discover and short templates)
+%     \end{itemize}
+%   \end{block}
+%   \begin{block}{Execution}
+%     \begin{itemize}
+%         \item Each sequence repeated 10 times, 70--90 ms injected network latency, 180 s timeout
+%         \item Cache scoped to a single sequence, no state shared between runs
+%     \end{itemize}
+%   \end{block}
+%   \begin{block}{Measured}
+%     \begin{itemize}
+%         \item Cache hit rates, evictions, and speedup over no cache
+%     \end{itemize}
+%   \end{block}
+% \end{frame}
