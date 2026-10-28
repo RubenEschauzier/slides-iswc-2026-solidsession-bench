@@ -1,8 +1,8 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2026.4.14)  22 OCT 2026 11:25
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2026.2.5)  27 OCT 2026 11:07
  system commands enabled.
  file:line:error style messages enabled.
-**/home/ruben-eschauzier/projects/slides/slides-iswc-2026-solidsessionbench/main.tex
-(/home/ruben-eschauzier/projects/slides/slides-iswc-2026-solidsessionbench/main.tex
+**/home/ruben-eschauzier/slides/slides-iswc-2026-solidsession-bench/main.tex
+(/home/ruben-eschauzier/slides/slides-iswc-2026-solidsession-bench/main.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 Lua module: luaotfload 2023-08-31 3.26 Lua based OpenType font support
@@ -1440,150 +1440,138 @@ Overfull \vbox (15.63992pt too high) detected at line 44
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./introduction/introduction_problem.tex
-<images/current-bad-message-situation.pdf, id=21, 555.42151pt x 579.9056pt>
-File: images/current-bad-message-situation.pdf Graphic file (type pdf)
-<use images/current-bad-message-situation.pdf>
-Package luatex.def Info: images/current-bad-message-situation.pdf  used on input line 44.
-(luatex.def)             Requested size: 203.1562pt x 212.11063pt.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmss' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 44.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 44.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-Overfull \vbox (15.24423pt too high) detected at line 44
+<images/decentralized-message-storage.pdf, id=21, 575.4965pt x 570.47774pt>
+File: images/decentralized-message-storage.pdf Graphic file (type pdf)
+<use images/decentralized-message-storage.pdf>
+Package luatex.def Info: images/decentralized-message-storage.pdf  used on input line 63.
+(luatex.def)             Requested size: 215.10356pt x 213.22353pt.
+
+Overfull \vbox (25.2702pt too high) detected at line 63
  []
 
 [2
 
-<./images/current-bad-message-situation.pdf>]
-<images/decentralized-message-storage.pdf, id=41, 575.4965pt x 570.47774pt>
-File: images/decentralized-message-storage.pdf Graphic file (type pdf)
-<use images/decentralized-message-storage.pdf>
-Package luatex.def Info: images/decentralized-message-storage.pdf  used on input line 62.
-(luatex.def)             Requested size: 215.10356pt x 213.22353pt.
-
-Overfull \vbox (25.3582pt too high) detected at line 62
- []
-
-[3
-
 <./images/decentralized-message-storage.pdf>]
-<images/how-to-find-sources.pdf, id=65, 510.58803pt x 645.75899pt>
+<images/how-to-find-sources.pdf, id=45, 510.58803pt x 645.75899pt>
 File: images/how-to-find-sources.pdf Graphic file (type pdf)
 <use images/how-to-find-sources.pdf>
-Package luatex.def Info: images/how-to-find-sources.pdf  used on input line 80.
+Package luatex.def Info: images/how-to-find-sources.pdf  used on input line 81.
 (luatex.def)             Requested size: 143.4048pt x 181.36307pt.
- [4
+ [3
 
 <./images/how-to-find-sources.pdf>]) (./introduction/introduction_ltqp.tex
-<images/showing-link-traversal-step-0.pdf, id=77, 605.50919pt x 398.22562pt>
+<images/showing-link-traversal-step-0.pdf, id=57, 605.50919pt x 398.22562pt>
 File: images/showing-link-traversal-step-0.pdf Graphic file (type pdf)
 <use images/showing-link-traversal-step-0.pdf>
 Package luatex.def Info: images/showing-link-traversal-step-0.pdf  used on input line 31.
 (luatex.def)             Requested size: 239.00558pt x 157.18497pt.
- [5
+ [4
 
 <./images/showing-link-traversal-step-0.pdf>]
-<images/showing-link-traversal-step-1.pdf, id=83, 605.50919pt x 398.22562pt>
+<images/showing-link-traversal-step-1.pdf, id=63, 605.50919pt x 398.22562pt>
 File: images/showing-link-traversal-step-1.pdf Graphic file (type pdf)
 <use images/showing-link-traversal-step-1.pdf>
 Package luatex.def Info: images/showing-link-traversal-step-1.pdf  used on input line 49.
 (luatex.def)             Requested size: 239.00558pt x 157.18497pt.
- [6
+ [5
 
 <./images/showing-link-traversal-step-1.pdf>]
-<images/showing-link-traversal-step-2.pdf, id=89, 605.50919pt x 398.22562pt>
+<images/showing-link-traversal-step-2.pdf, id=69, 605.50919pt x 398.22562pt>
 File: images/showing-link-traversal-step-2.pdf Graphic file (type pdf)
 <use images/showing-link-traversal-step-2.pdf>
 Package luatex.def Info: images/showing-link-traversal-step-2.pdf  used on input line 66.
 (luatex.def)             Requested size: 239.00558pt x 157.18497pt.
- [7
+ [6
 
 <./images/showing-link-traversal-step-2.pdf>]
-<images/showing-link-traversal-step-3.pdf, id=95, 605.50919pt x 398.22562pt>
+<images/showing-link-traversal-step-3.pdf, id=75, 605.50919pt x 398.22562pt>
 File: images/showing-link-traversal-step-3.pdf Graphic file (type pdf)
 <use images/showing-link-traversal-step-3.pdf>
 Package luatex.def Info: images/showing-link-traversal-step-3.pdf  used on input line 85.
 (luatex.def)             Requested size: 239.00558pt x 157.18497pt.
- [8
+ [7
 
 <./images/showing-link-traversal-step-3.pdf>]) (./introduction/introduction_optimization.tex
-<images/hardToOptimizeLTQP.pdf, id=101, 333.6929pt x 486.79428pt>
+<images/hardToOptimizeLTQP.pdf, id=81, 333.6929pt x 486.79428pt>
 File: images/hardToOptimizeLTQP.pdf Graphic file (type pdf)
 <use images/hardToOptimizeLTQP.pdf>
 Package luatex.def Info: images/hardToOptimizeLTQP.pdf  used on input line 24.
 (luatex.def)             Requested size: 143.4048pt x 209.19861pt.
 
-Overfull \vbox (21.42128pt too high) detected at line 24
+Overfull \vbox (21.30928pt too high) detected at line 24
  []
 
-[9
+[8
 
 <./images/hardToOptimizeLTQP.pdf>]
-<images/client-side-engine.pdf, id=113, 376.40625pt x 278.54062pt>
+<images/client-side-engine.pdf, id=93, 376.40625pt x 278.54062pt>
 File: images/client-side-engine.pdf Graphic file (type pdf)
 <use images/client-side-engine.pdf>
 Package luatex.def Info: images/client-side-engine.pdf  used on input line 42.
 (luatex.def)             Requested size: 239.00558pt x 176.86707pt.
- [10
+ [9
 
 <./images/client-side-engine.pdf>]) (./problem-statement/problem-statement.tex) (./literature/literature.tex
-<images/caching-sequence.pdf, id=119, 368.87813pt x 263.48438pt>
+<images/caching-sequence.pdf, id=99, 368.87813pt x 263.48438pt>
 File: images/caching-sequence.pdf Graphic file (type pdf)
 <use images/caching-sequence.pdf>
 Package luatex.def Info: images/caching-sequence.pdf  used on input line 19.
 (luatex.def)             Requested size: 179.25114pt x 128.035pt.
- [11
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmss' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 19.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 19.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+) [10
 
 <./images/caching-sequence.pdf>]
-<images/evaluation-approaches.pdf, id=130, 376.40625pt x 278.54062pt>
+<images/evaluation-approaches.pdf, id=109, 376.40625pt x 278.54062pt>
 File: images/evaluation-approaches.pdf Graphic file (type pdf)
 <use images/evaluation-approaches.pdf>
 Package luatex.def Info: images/evaluation-approaches.pdf  used on input line 36.
 (luatex.def)             Requested size: 239.00558pt x 176.86707pt.
- [12
+ [11
 
-<./images/evaluation-approaches.pdf>] [13
+<./images/evaluation-approaches.pdf>] [12
 
-]) (./simulation-methodology/solidbench.tex [14
+]) (./simulation-methodology/solidbench.tex [13
 
 ]) (./simulation-methodology/simulation-methodology.tex
-<images/sequence-overview.pdf, id=149, 519.44063pt x 150.5625pt>
+<images/sequence-overview.pdf, id=129, 519.44063pt x 150.5625pt>
 File: images/sequence-overview.pdf Graphic file (type pdf)
 <use images/sequence-overview.pdf>
 Package luatex.def Info: images/sequence-overview.pdf  used on input line 21.
 (luatex.def)             Requested size: 338.59023pt x 98.14014pt.
- [15
+ [14
 
 <./images/sequence-overview.pdf>]
-<images/logical-sessions.pdf, id=155, 474.27188pt x 218.31563pt>
+<images/logical-sessions.pdf, id=135, 474.27188pt x 218.31563pt>
 File: images/logical-sessions.pdf Graphic file (type pdf)
 <use images/logical-sessions.pdf>
 Package luatex.def Info: images/logical-sessions.pdf  used on input line 46.
 (luatex.def)             Requested size: 199.1693pt x 91.68193pt.
- [16
+ [15
 
 <./images/logical-sessions.pdf>]
-<images/user-interests.pdf, id=165, 376.40625pt x 278.54062pt>
+<images/user-interests.pdf, id=145, 376.40625pt x 278.54062pt>
 File: images/user-interests.pdf Graphic file (type pdf)
 <use images/user-interests.pdf>
 Package luatex.def Info: images/user-interests.pdf  used on input line 70.
 (luatex.def)             Requested size: 199.1693pt x 147.3878pt.
- [17
+ [16
 
 <./images/user-interests.pdf>]
-<images/query-refinement-wide.pdf, id=177, 752.8125pt x 165.61874pt>
+<images/query-refinement-wide.pdf, id=156, 752.8125pt x 165.61874pt>
 File: images/query-refinement-wide.pdf Graphic file (type pdf)
 <use images/query-refinement-wide.pdf>
 Package luatex.def Info: images/query-refinement-wide.pdf  used on input line 97.
@@ -1593,92 +1581,92 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Overfull \vbox (13.10742pt too high) detected at line 97
+Overfull \vbox (13.21942pt too high) detected at line 97
  []
 
-[18
+[17
 
 <./images/query-refinement-wide.pdf>]) (./caching/caching.tex
-<images/cache-approaches.pdf, id=189, 752.8125pt x 304.88907pt>
+<images/cache-approaches.pdf, id=168, 752.8125pt x 304.88907pt>
 File: images/cache-approaches.pdf Graphic file (type pdf)
 <use images/cache-approaches.pdf>
 Package luatex.def Info: images/cache-approaches.pdf  used on input line 21.
 (luatex.def)             Requested size: 398.3386pt x 161.32991pt.
 
-Overfull \vbox (13.99777pt too high) detected at line 21
+Overfull \vbox (13.88577pt too high) detected at line 21
  []
 
-[19
+[18
 
 <./images/cache-approaches.pdf>]) (./results/results.tex
-<images/speedup_violins.pdf, id=195, 396.24348pt x 157.12828pt>
+<images/speedup_violins.pdf, id=175, 396.24348pt x 157.12828pt>
 File: images/speedup_violins.pdf Graphic file (type pdf)
 <use images/speedup_violins.pdf>
 Package luatex.def Info: images/speedup_violins.pdf  used on input line 19.
 (luatex.def)             Requested size: 398.3386pt x 157.96703pt.
 
-Overfull \vbox (2.53017pt too high) detected at line 19
+Overfull \vbox (2.46617pt too high) detected at line 19
  []
 
-[20
+[19
 
 <./images/speedup_violins.pdf>]
-<images/answered_queries.pdf, id=242, 396.86255pt x 146.6071pt>
+<images/answered_queries.pdf, id=222, 396.86255pt x 146.6071pt>
 File: images/answered_queries.pdf Graphic file (type pdf)
 <use images/answered_queries.pdf>
 Package luatex.def Info: images/answered_queries.pdf  used on input line 31.
 (luatex.def)             Requested size: 398.3386pt x 147.15704pt.
- [21
+ [20
 
 <./images/answered_queries.pdf>]
-<images/session-hit-rates.pdf, id=291, 451.6875pt x 269.50688pt>
+<images/session-hit-rates.pdf, id=270, 451.6875pt x 269.50688pt>
 File: images/session-hit-rates.pdf Graphic file (type pdf)
 <use images/session-hit-rates.pdf>
 Package luatex.def Info: images/session-hit-rates.pdf  used on input line 47.
 (luatex.def)             Requested size: 219.08743pt x 130.723pt.
- [22
+ [21
 
 <./images/session-hit-rates.pdf>]
-<images/refinement_hits_evictions.pdf, id=297, 413.14302pt x 165.91963pt>
+<images/refinement_hits_evictions.pdf, id=277, 413.14302pt x 165.91963pt>
 File: images/refinement_hits_evictions.pdf Graphic file (type pdf)
 <use images/refinement_hits_evictions.pdf>
 Package luatex.def Info: images/refinement_hits_evictions.pdf  used on input line 55.
 (luatex.def)             Requested size: 398.3386pt x 159.97977pt.
- [23
+ [22
 
 <./images/refinement_hits_evictions.pdf>]
-<images/random_vs_solidsessionbench.pdf, id=354, 397.01952pt x 158.47958pt>
+<images/random_vs_solidsessionbench.pdf, id=334, 397.01952pt x 158.47958pt>
 File: images/random_vs_solidsessionbench.pdf Graphic file (type pdf)
 <use images/random_vs_solidsessionbench.pdf>
 Package luatex.def Info: images/random_vs_solidsessionbench.pdf  used on input line 67.
 (luatex.def)             Requested size: 398.3386pt x 159.01118pt.
 
-Overfull \vbox (3.51033pt too high) detected at line 67
+Overfull \vbox (3.42233pt too high) detected at line 67
  []
 
-[24
+[23
 
 <./images/random_vs_solidsessionbench.pdf>]
-<images/synth_hit_rate_slide.pdf, id=405, 413.13974pt x 169.53313pt>
+<images/synth_hit_rate_slide.pdf, id=385, 413.13974pt x 169.53313pt>
 File: images/synth_hit_rate_slide.pdf Graphic file (type pdf)
 <use images/synth_hit_rate_slide.pdf>
 Package luatex.def Info: images/synth_hit_rate_slide.pdf  used on input line 75.
 (luatex.def)             Requested size: 398.3386pt x 163.46391pt.
- [25
+ [24
 
-<./images/synth_hit_rate_slide.pdf>] [26
+<./images/synth_hit_rate_slide.pdf>] [25
 
 ]
-<images/qr-solidsessionbench.png, id=482, 592.2125pt x 592.2125pt>
+<images/qr-solidsessionbench.png, id=462, 592.2125pt x 592.2125pt>
 File: images/qr-solidsessionbench.png Graphic file (type png)
 <use images/qr-solidsessionbench.png>
 Package luatex.def Info: images/qr-solidsessionbench.png  used on input line 115.
 (luatex.def)             Requested size: 143.39871pt x 143.399pt.
- [27
+ [26
 
-<./images/qr-solidsessionbench.png>]) [28
+<./images/qr-solidsessionbench.png>]) [27
 
-</usr/share/texlive/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>] [29
+</usr/share/texlive/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>] [28
 
 
 ] (./supplemental/hyperparameter.tex
@@ -1709,37 +1697,37 @@ Package fontspec Info: Font family 'FiraSansLight(1)' created for font 'Fira
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
 (fontspec)             <->"FiraSansItalic:mode=node;script=latn;language=dflt;+tlig;+tnum;+smcp;"
 
- [30
+ [29
 
 ]) (./supplemental/simulation-details.tex
-<images/click-through-instantiation.pdf, id=517, 376.40625pt x 271.0125pt>
+<images/click-through-instantiation.pdf, id=497, 376.40625pt x 271.0125pt>
 File: images/click-through-instantiation.pdf Graphic file (type pdf)
 <use images/click-through-instantiation.pdf>
 Package luatex.def Info: images/click-through-instantiation.pdf  used on input line 17.
 (luatex.def)             Requested size: 239.00558pt x 172.08688pt.
- [31
+ [30
 
 <./images/click-through-instantiation.pdf>]
 File: images/logical-sessions.pdf Graphic file (type pdf)
 <use images/logical-sessions.pdf>
 Package luatex.def Info: images/logical-sessions.pdf  used on input line 33.
 (luatex.def)             Requested size: 239.00558pt x 110.01698pt.
- [32
+ [31
 
 ]
-<images/interest-selection.pdf, id=531, 376.40625pt x 271.0125pt>
+<images/interest-selection.pdf, id=511, 376.40625pt x 271.0125pt>
 File: images/interest-selection.pdf Graphic file (type pdf)
 <use images/interest-selection.pdf>
 Package luatex.def Info: images/interest-selection.pdf  used on input line 52.
 (luatex.def)             Requested size: 219.08743pt x 157.74562pt.
- [33
+ [32
 
-<./images/interest-selection.pdf>] [34
+<./images/interest-selection.pdf>] [33
 
-] [35
+] [34
 
 ]) (./supplemental/results-details.tex
-<images/first_result_speedup_violins.pdf, id=551, 397.2766pt x 157.12828pt>
+<images/first_result_speedup_violins.pdf, id=531, 397.2766pt x 157.12828pt>
 File: images/first_result_speedup_violins.pdf Graphic file (type pdf)
 <use images/first_result_speedup_violins.pdf>
 Package luatex.def Info: images/first_result_speedup_violins.pdf  used on input line 11.
@@ -1748,10 +1736,10 @@ Package luatex.def Info: images/first_result_speedup_violins.pdf  used on input 
 Overfull \vbox (2.05618pt too high) detected at line 11
  []
 
-[36
+[35
 
 <./images/first_result_speedup_violins.pdf>]
-<images/throughput_speedup_violins.pdf, id=602, 396.94724pt x 157.12828pt>
+<images/throughput_speedup_violins.pdf, id=582, 396.94724pt x 157.12828pt>
 File: images/throughput_speedup_violins.pdf Graphic file (type pdf)
 <use images/throughput_speedup_violins.pdf>
 Package luatex.def Info: images/throughput_speedup_violins.pdf  used on input line 23.
@@ -1760,7 +1748,7 @@ Package luatex.def Info: images/throughput_speedup_violins.pdf  used on input li
 Overfull \vbox (2.18086pt too high) detected at line 23
  []
 
-[37
+[36
 
 <./images/throughput_speedup_violins.pdf>])
 \tf@nav=\write7
@@ -1785,19 +1773,19 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 44596 strings out of 476553
+ 44582 strings out of 476553
  125031,1977958 words of node,token memory allocated
  3085 words of node memory still in use:
    33 hlist, 8 vlist, 6 rule, 12 disc, 5 local_par, 65 glue, 29 kern, 13 penalty, 1 margin_kern, 151 glyph, 61 attribute, 81 glue_spec, 61 attribute_list, 4 write, 16 pdf_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore nodes
-   avail lists: 1:2,2:716,3:253,4:307,5:538,6:41,7:2778,8:31,9:307,10:15,11:159
- 65281 multiletter control sequences out of 65536+600000
+   avail lists: 1:2,2:716,3:253,4:305,5:536,6:41,7:2776,8:31,9:307,10:15,11:159
+ 65272 multiletter control sequences out of 65536+600000
  111 fonts using 24244767 bytes
- 128i,13n,133p,1944b,2496s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,13n,133p,1936b,2496s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/opentype/public/fira/FiraMono-Regular.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/fira/FiraSans-LightItalic.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/fira/FiraSans-Light.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/fira/FiraSans-Regular.otf></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (37 pages, 1317912 bytes).
+Output written on main.pdf (36 pages, 949189 bytes).
 
-PDF statistics: 708 PDF objects out of 1000 (max. 8388607)
- 316 compressed objects within 4 object streams
- 82 named destinations out of 1000 (max. 131072)
+PDF statistics: 688 PDF objects out of 1000 (max. 8388607)
+ 305 compressed objects within 4 object streams
+ 80 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 
